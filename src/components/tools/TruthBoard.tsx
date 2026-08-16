@@ -95,18 +95,22 @@ export function BoardNode({
 	);
 }
 
-function HLine() {
+function HSlot({ linked, lit }: { linked: boolean; lit: boolean }) {
 	return (
 		<div className="flex h-[50px] w-5 shrink-0 items-center">
-			<div className="h-[5px] w-full bg-[#2c592a]" />
+			{linked && (
+				<div className={`h-[5px] w-full bg-[#2c592a] ${lit ? "" : "brightness-[0.3]"}`} />
+			)}
 		</div>
 	);
 }
 
-function VLine() {
+function VSlot({ linked, lit }: { linked: boolean; lit: boolean }) {
 	return (
 		<div className="flex h-5 w-[50px] shrink-0 items-center justify-center">
-			<div className="h-[5px] w-5 rotate-90 bg-[#2c592a]" />
+			{linked && (
+				<div className={`h-[5px] w-5 rotate-90 bg-[#2c592a] ${lit ? "" : "brightness-[0.3]"}`} />
+			)}
 		</div>
 	);
 }
@@ -129,39 +133,56 @@ export function TruthBoard({
 		[statTypes],
 	);
 
+	const isLinked = (a: TruthNode | undefined, b: TruthNode | undefined) =>
+		!!a && !!b && a.neighborIds.includes(b.id);
+
+	const isLit = (a: TruthNode | undefined, b: TruthNode | undefined) =>
+		!!a && !!b && !!buildMap.get(a.id) && !!buildMap.get(b.id);
+
 	return (
 		<div className="overflow-auto rounded-lg border border-border overscroll-contain touch-pan-x touch-pan-y">
 			<div
 				className="inline-block min-w-max origin-top-left bg-[#123625] p-2"
 				style={{ transform: `scale(${scale})` }}
 			>
-				{grid.map((row, rowIdx) => (
-					<div key={`row-${rowIdx}`}>
-						<div className="flex">
-							{row.map((node, colIdx) => (
-								<div key={node.id} className="flex">
-									<BoardNode
-										node={node}
-										selected={!!buildMap.get(node.id)}
-										statImgByType={statImgByType}
-										onToggle={() => onToggle(node.id)}
-									/>
-									{colIdx < row.length - 1 && <HLine />}
-								</div>
-							))}
-						</div>
-						{rowIdx < grid.length - 1 && (
+				{grid.map((row, rowIdx) => {
+					const nextRow = grid[rowIdx + 1];
+					return (
+						<div key={`row-${rowIdx}`}>
 							<div className="flex">
-								{row.map((node, colIdx) => (
-									<div key={`v-${node.id}`} className="flex">
-										<VLine />
-										{colIdx < row.length - 1 && <div className="w-5 shrink-0" />}
-									</div>
-								))}
+								{row.map((node, colIdx) => {
+									const right = row[colIdx + 1];
+									return (
+										<div key={node.id} className="flex">
+											<BoardNode
+												node={node}
+												selected={!!buildMap.get(node.id)}
+												statImgByType={statImgByType}
+												onToggle={() => onToggle(node.id)}
+											/>
+											{colIdx < row.length - 1 && (
+												<HSlot linked={isLinked(node, right)} lit={isLit(node, right)} />
+											)}
+										</div>
+									);
+								})}
 							</div>
-						)}
-					</div>
-				))}
+							{nextRow && (
+								<div className="flex">
+									{row.map((node, colIdx) => {
+										const below = nextRow[colIdx];
+										return (
+											<div key={`v-${node.id}`} className="flex">
+												<VSlot linked={isLinked(node, below)} lit={isLit(node, below)} />
+												{colIdx < row.length - 1 && <div className="w-5 shrink-0" />}
+											</div>
+										);
+									})}
+								</div>
+							)}
+						</div>
+					);
+				})}
 			</div>
 		</div>
 	);
