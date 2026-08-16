@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import { useLocale } from "@/components/i18n/LocaleProvider";
 
 const DISCORD = "https://discord.gg/9unNkHAvZV";
@@ -37,9 +38,9 @@ export function MainNav({ active, onNavigate }: { active: string; onNavigate?: (
 						active === link.id || (link.id === "guides" && active.startsWith("guides"));
 					return (
 						<li key={link.id}>
-							<a href={link.href} onClick={onNavigate} className={linkClass(isActive)}>
+							<Link to={link.href} onClick={onNavigate} className={linkClass(isActive)}>
 								{labels[link.id]}
-							</a>
+							</Link>
 							{link.id === "guides" && (
 								<ul className="mt-1 mb-2 ml-3 space-y-1 border-l border-border pl-2">
 									{(
@@ -50,13 +51,13 @@ export function MainNav({ active, onNavigate }: { active: string; onNavigate?: (
 										] as const
 									).map(([id, href, label]) => (
 										<li key={id}>
-											<a
-												href={href}
+											<Link
+												to={href}
 												onClick={onNavigate}
 												className={linkClass(active === `guides-${id}`)}
 											>
 												{label}
-											</a>
+											</Link>
 										</li>
 									))}
 								</ul>
@@ -67,13 +68,13 @@ export function MainNav({ active, onNavigate }: { active: string; onNavigate?: (
 			</ul>
 
 			<div className="mt-auto space-y-3 px-3 pt-8">
-				<a
-					href="/app"
+				<Link
+					to="/app"
 					onClick={onNavigate}
 					className="inline-flex items-center gap-2 rounded border border-border px-3 py-2 font-mono text-[10px] tracking-widest text-muted-foreground transition-colors hover:border-primary/50 hover:text-primary"
 				>
 					{ui.nav.app}
-				</a>
+				</Link>
 				<a
 					href={DISCORD}
 					target="_blank"

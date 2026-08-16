@@ -1,9 +1,12 @@
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
+import { Link, useParams } from "react-router-dom";
 import { StepPanel } from "@/components/guides/StepPanel";
 import { useLocale } from "@/components/i18n/LocaleProvider";
-import { AppShell } from "@/components/layout/AppShell";
-import { type Step, unitScale } from "@/data/types";
-import { DEFAULT_LOCALE } from "@/i18n/locale";
+import { unitScale } from "@/data/types";
+import { steps as stepsEn } from "@/data/walkthrough-en";
+import { steps as stepsEs } from "@/data/walkthrough-es";
+
+const stepsByLocale = { es: stepsEs, en: stepsEn } as const;
 
 function UnitScaleAside() {
 	return (
@@ -18,10 +21,18 @@ function UnitScaleAside() {
 	);
 }
 
-function WalkthroughInner({ stepsByLocale }: { stepsByLocale: { es: Step[]; en: Step[] } }) {
+export function WalkthroughPage() {
 	const { locale, ui } = useLocale();
+	const { step: stepParam } = useParams<{ step?: string }>();
 	const steps = stepsByLocale[locale];
 	const [open, setOpen] = useState<string[]>(["mechanics", "presets"]);
+
+	useEffect(() => {
+		if (!stepParam) return;
+		const el = document.getElementById(stepParam);
+		if (el) el.scrollIntoView({ behavior: "smooth", block: "start" });
+		setOpen((prev) => (prev.includes(stepParam) ? prev : [...prev, stepParam]));
+	}, [stepParam]);
 
 	const toggle = (id: string) =>
 		setOpen((prev) => (prev.includes(id) ? prev.filter((x) => x !== id) : [...prev, id]));
@@ -75,13 +86,13 @@ function WalkthroughInner({ stepsByLocale }: { stepsByLocale: { es: Step[]; en: 
 
 				<div className="mb-4 flex flex-wrap gap-2">
 					{steps.map((step) => (
-						<a
+						<Link
 							key={step.id}
-							href={`/guides/walkthrough/${step.id}`}
+							to={`/guides/walkthrough/${step.id}`}
 							className="rounded border border-border px-2 py-1.5 font-mono text-[10px] text-muted-foreground transition-colors hover:border-primary/50 hover:text-primary"
 						>
 							{step.n} · {step.title}
-						</a>
+						</Link>
 					))}
 				</div>
 
@@ -108,13 +119,5 @@ function WalkthroughInner({ stepsByLocale }: { stepsByLocale: { es: Step[]; en: 
 				<UnitScaleAside />
 			</aside>
 		</div>
-	);
-}
-
-export function WalkthroughPage({ stepsByLocale }: { stepsByLocale: { es: Step[]; en: Step[] } }) {
-	return (
-		<AppShell initialLocale={DEFAULT_LOCALE} active="guides-walkthrough">
-			<WalkthroughInner stepsByLocale={stepsByLocale} />
-		</AppShell>
 	);
 }

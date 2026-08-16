@@ -1,9 +1,9 @@
 import { useLocale } from "@/components/i18n/LocaleProvider";
-import { AppShell } from "@/components/layout/AppShell";
-import type { AppMeta } from "@/data/app-meta";
-import { DEFAULT_LOCALE } from "@/i18n/locale";
+import { getAppMeta } from "@/data/app-meta";
 
-function AppInner({ metaByLocale }: { metaByLocale: { es: AppMeta; en: AppMeta } }) {
+const metaByLocale = { es: getAppMeta("es"), en: getAppMeta("en") };
+
+export function AppPage() {
 	const { locale, ui } = useLocale();
 	const meta = metaByLocale[locale];
 
@@ -58,13 +58,5 @@ function AppInner({ metaByLocale }: { metaByLocale: { es: AppMeta; en: AppMeta }
 				</ul>
 			</section>
 		</div>
-	);
-}
-
-export function AppPage({ metaByLocale }: { metaByLocale: { es: AppMeta; en: AppMeta } }) {
-	return (
-		<AppShell initialLocale={DEFAULT_LOCALE} active="app">
-			<AppInner metaByLocale={metaByLocale} />
-		</AppShell>
 	);
 }

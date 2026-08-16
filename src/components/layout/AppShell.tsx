@@ -1,28 +1,56 @@
 import { type ReactNode, useEffect, useId, useState } from "react";
+import { Outlet, useLocation } from "react-router-dom";
 import { LocaleProvider, useLocale } from "@/components/i18n/LocaleProvider";
 import { MainNav } from "@/components/layout/MainNav";
-import type { Locale } from "@/i18n/locale";
+import { DEFAULT_LOCALE } from "@/i18n/locale";
 
-export function AppShell({
-	children,
-	initialLocale,
-	active,
-}: {
-	children: ReactNode;
-	initialLocale: Locale;
-	active: string;
-}) {
+const PAGE_TITLES: { match: RegExp; title: string }[] = [
+	{ match: /^\/guides\/walkthrough/, title: "Brick Inc — Walkthrough" },
+	{ match: /^\/guides\/resources/, title: "Brick Inc — Resources" },
+	{ match: /^\/guides\/features/, title: "Brick Inc — Rank Unlocks" },
+	{ match: /^\/conversions/, title: "Brick Inc — Resource Conversions" },
+	{ match: /^\/science/, title: "Brick Inc — Science / Quantum" },
+	{ match: /^\/presets/, title: "Brick Inc — Presets" },
+	{ match: /^\/app/, title: "Brick Inc — App" },
+];
+
+function activeFromPath(pathname: string): string {
+	if (pathname.startsWith("/guides/walkthrough")) return "guides-walkthrough";
+	if (pathname.startsWith("/guides/resources")) return "guides-resources";
+	if (pathname.startsWith("/guides/features")) return "guides-features";
+	if (pathname.startsWith("/conversions")) return "conversions";
+	if (pathname.startsWith("/science")) return "science";
+	if (pathname.startsWith("/presets")) return "presets";
+	if (pathname.startsWith("/app")) return "app";
+	if (pathname.startsWith("/guides")) return "guides";
+	return "";
+}
+
+function useDocumentTitle(pathname: string) {
+	useEffect(() => {
+		const hit = PAGE_TITLES.find((t) => t.match.test(pathname));
+		document.title = hit?.title ?? "Brick Inc — Idle Breaker Tools";
+	}, [pathname]);
+}
+
+export function AppShell() {
 	return (
-		<LocaleProvider initialLocale={initialLocale}>
-			<ShellInner active={active}>{children}</ShellInner>
+		<LocaleProvider initialLocale={DEFAULT_LOCALE}>
+			<ShellInner>
+				<Outlet />
+			</ShellInner>
 		</LocaleProvider>
 	);
 }
 
-function ShellInner({ children, active }: { children: ReactNode; active: string }) {
+function ShellInner({ children }: { children: ReactNode }) {
 	const { ui } = useLocale();
+	const { pathname } = useLocation();
+	const active = activeFromPath(pathname);
 	const [open, setOpen] = useState(false);
 	const navId = useId();
+
+	useDocumentTitle(pathname);
 
 	useEffect(() => {
 		if (!open) return;

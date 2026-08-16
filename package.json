@@ -21,6 +21,7 @@
 		"brotli-wasm": "^3.0.1",
 		"react": "^19.1.1",
 		"react-dom": "^19.1.1",
+		"react-router-dom": "^7.18.2",
 		"vis-data": "^7.1.9",
 		"vis-network": "^9.1.9"
 	},

@@ -1,13 +1,11 @@
 import { useCallback, useEffect, useMemo, useState } from "react";
 import { useLocale } from "@/components/i18n/LocaleProvider";
-import { AppShell } from "@/components/layout/AppShell";
 import type { PresetDef, StatType, TruthNode } from "@/components/tools/preset-types";
 import { TruthBoard } from "@/components/tools/TruthBoard";
 import presetsData from "@/data/presets.json";
 import statTypesData from "@/data/stat-types.json";
 import nodesData from "@/data/truth-nodes.json";
 import ringsData from "@/data/truth-nodes-rings.json";
-import { DEFAULT_LOCALE } from "@/i18n/locale";
 
 const presets = presetsData as PresetDef[];
 const nodes = nodesData as TruthNode[];
@@ -353,9 +351,5 @@ function PresetsInner() {
 }
 
 export function PresetsPage() {
-	return (
-		<AppShell initialLocale={DEFAULT_LOCALE} active="presets">
-			<PresetsInner />
-		</AppShell>
-	);
+	return <PresetsInner />;
 }

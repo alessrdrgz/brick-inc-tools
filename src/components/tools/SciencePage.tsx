@@ -1,8 +1,6 @@
 import { useMemo, useState } from "react";
 import { useLocale } from "@/components/i18n/LocaleProvider";
 import { GameIcon } from "@/components/icons/GameIcon";
-import { AppShell } from "@/components/layout/AppShell";
-import { DEFAULT_LOCALE } from "@/i18n/locale";
 import type { UiDict } from "@/i18n/ui";
 import {
 	formatGameNumber,
@@ -111,9 +109,5 @@ function ScienceInner() {
 }
 
 export function SciencePage() {
-	return (
-		<AppShell initialLocale={DEFAULT_LOCALE} active="science">
-			<ScienceInner />
-		</AppShell>
-	);
+	return <ScienceInner />;
 }

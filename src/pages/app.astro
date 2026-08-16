@@ -1,9 +1,0 @@
----
-import { AppPage } from "@/components/app/AppPage";
-import { getAppMeta } from "@/data/app-meta";
-import BaseLayout from "@/layouts/BaseLayout.astro";
----
-
-<BaseLayout title="Brick Inc — App">
-	<AppPage client:load metaByLocale={{ es: getAppMeta("es"), en: getAppMeta("en") }} />
-</BaseLayout>

@@ -2,7 +2,7 @@
 
 Guides and tools for **Brick Inc (Idle Breaker)** v2.3.9.
 
-A modern remake of [Deathfisaro's Brick Inc Tools](https://deathfisaro.github.io/brickinc/), rebuilt with Astro + React. Same guides and calculators, refreshed UI, mobile-friendly layout, and the original game icons.
+A modern remake of [Deathfisaro's Brick Inc Tools](https://deathfisaro.github.io/brickinc/), rebuilt as an Astro-shelled React SPA. Same guides and calculators, refreshed UI, mobile-friendly layout, and the original game icons.
 
 > Not affiliated with Seasoning Games. Fan project only.
 
@@ -30,7 +30,7 @@ Pull requests from anyone are welcome, as long as they pass a quality review (li
 
 ## Stack
 
-- Astro 5 + React islands
+- Astro 5 (static shell) + React SPA (`react-router-dom`)
 - Tailwind CSS 4
 - Biome
 - pnpm + Node ≥ 26

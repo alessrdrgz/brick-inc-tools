@@ -1,9 +1,7 @@
 import { useState } from "react";
 import { useLocale } from "@/components/i18n/LocaleProvider";
 import { GameIcon } from "@/components/icons/GameIcon";
-import { AppShell } from "@/components/layout/AppShell";
 import type { GuideNode, GuideSection } from "@/data/guides";
-import { DEFAULT_LOCALE } from "@/i18n/locale";
 
 function GuideAccordion({
 	node,
@@ -84,7 +82,7 @@ function GuideAccordion({
 	);
 }
 
-function GuideInner({
+export function GuidePage({
 	contentByLocale,
 }: {
 	contentByLocale: { es: GuideSection; en: GuideSection };
@@ -101,19 +99,5 @@ function GuideInner({
 				<GuideAccordion key={group.id} node={group} depth={0} defaultOpen />
 			))}
 		</div>
-	);
-}
-
-export function GuidePage({
-	active,
-	contentByLocale,
-}: {
-	active: string;
-	contentByLocale: { es: GuideSection; en: GuideSection };
-}) {
-	return (
-		<AppShell initialLocale={DEFAULT_LOCALE} active={active}>
-			<GuideInner contentByLocale={contentByLocale} />
-		</AppShell>
 	);
 }

@@ -1,6 +1,5 @@
 import { lazy, Suspense, useState } from "react";
 import { useLocale } from "@/components/i18n/LocaleProvider";
-import { AppShell } from "@/components/layout/AppShell";
 import {
 	type Conversion,
 	ConversionFiltersBar,
@@ -10,7 +9,6 @@ import {
 } from "@/components/tools/ConversionsTable";
 import conversionsData from "@/data/conversions.json";
 import resourcesData from "@/data/resources.json";
-import { DEFAULT_LOCALE } from "@/i18n/locale";
 
 const ConversionsGraph = lazy(() =>
 	import("@/components/tools/ConversionsGraph").then((m) => ({ default: m.ConversionsGraph })),
@@ -90,9 +88,5 @@ function ConversionsInner() {
 }
 
 export function ConversionsPage() {
-	return (
-		<AppShell initialLocale={DEFAULT_LOCALE} active="conversions">
-			<ConversionsInner />
-		</AppShell>
-	);
+	return <ConversionsInner />;
 }
