@@ -1,0 +1,13 @@
+---
+import { GuidePage } from "@/components/guides/GuidePage";
+import { getResources } from "@/data/guides";
+import BaseLayout from "@/layouts/BaseLayout.astro";
+---
+
+<BaseLayout title="Brick Inc — Resources">
+	<GuidePage
+		client:load
+		active="guides-resources"
+		contentByLocale={{ es: getResources("es"), en: getResources("en") }}
+	/>
+</BaseLayout>

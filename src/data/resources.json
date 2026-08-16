@@ -1,0 +1,400 @@
+[
+	{
+		"id": "key",
+		"name": "Prism Key",
+		"imageName": "ui_prism_key.png",
+		"singleUnit": "Key",
+		"pluralUnit": "Keys"
+	},
+	{
+		"id": "gem",
+		"name": "Gem",
+		"imageName": "ui_gem.png",
+		"singleUnit": "Gem",
+		"pluralUnit": "Gems"
+	},
+	{
+		"id": "book",
+		"name": "Spellbook",
+		"imageName": "ui_spell_book.png",
+		"singleUnit": "Book",
+		"pluralUnit": "Books"
+	},
+	{
+		"id": "boosterPoint",
+		"name": "Booster Points",
+		"imageName": "ui_booster_point.png",
+		"singleUnit": "Point",
+		"pluralUnit": "Points"
+	},
+	{
+		"id": "mileage",
+		"name": "Mileage",
+		"imageName": "ui_mileage.png",
+		"singleUnit": "Point",
+		"pluralUnit": "Points"
+	},
+	{
+		"id": "prismCard",
+		"name": "Prism Card",
+		"imageName": "ui_prism_card.png",
+		"singleUnit": "Card",
+		"pluralUnit": "Cards"
+	},
+	{
+		"id": "mythicToken",
+		"name": "Mythic Token",
+		"imageName": "ui_mystic_token.png",
+		"singleUnit": "Token",
+		"pluralUnit": "Tokens"
+	},
+	{
+		"id": "cardTicket",
+		"name": "Card Summon Ticket",
+		"imageName": "ui_card_ticket_gacha.png",
+		"singleUnit": "Ticket",
+		"pluralUnit": "Tickets"
+	},
+	{
+		"id": "epicCardTicket",
+		"name": "Epic Card Summon Ticket",
+		"imageName": "ui_card_ticket_epic_gacha.png",
+		"singleUnit": "Ticket",
+		"pluralUnit": "Tickets"
+	},
+	{
+		"id": "legCardTicket",
+		"name": "Legendary Card Summon Ticket",
+		"imageName": "ui_card_ticket_legend_gacha.png",
+		"singleUnit": "Ticket",
+		"pluralUnit": "Tickets"
+	},
+	{
+		"id": "legCardSelectionTicket",
+		"name": "Legendary Card Selection Summon Ticket",
+		"imageName": "ui_card_ticket_legend_select.png",
+		"singleUnit": "Ticket",
+		"pluralUnit": "Tickets"
+	},
+	{
+		"id": "prismSummonTicket",
+		"name": "Prism Summon Ticket",
+		"imageName": "ui_prism_ticket.png",
+		"singleUnit": "Ticket",
+		"pluralUnit": "Tickets"
+	},
+	{
+		"id": "challengeTicket",
+		"name": "Challenge Ticket Exchange Coupon",
+		"imageName": "ui_challenge_ex_ticket.png",
+		"group": "challenge",
+		"singleUnit": "Ticket",
+		"pluralUnit": "Tickets"
+	},
+	{
+		"id": "challengeTicketWall",
+		"name": "Challenge Ticket: Wall of Eternity",
+		"imageName": "ui_challenge_ticket_wall.png",
+		"group": "challenge",
+		"singleUnit": "Ticket",
+		"pluralUnit": "Tickets"
+	},
+	{
+		"id": "challengeTicketAltar",
+		"name": "Challenge Ticket: Golden Altar",
+		"imageName": "ui_challenge_ticket_licence.png",
+		"group": "challenge",
+		"singleUnit": "Ticket",
+		"pluralUnit": "Tickets"
+	},
+	{
+		"id": "challengeTicketDive",
+		"name": "Challenge Ticket: Dimensional Dive",
+		"imageName": "ui_challenge_ticket_dive.png",
+		"group": "challenge",
+		"singleUnit": "Ticket",
+		"pluralUnit": "Tickets"
+	},
+	{
+		"id": "challengeTicketTemple",
+		"name": "Challenge Ticket: Temple of Chaos",
+		"imageName": "ui_challenge_ticket_chaos.png",
+		"group": "challenge",
+		"singleUnit": "Ticket",
+		"pluralUnit": "Tickets"
+	},
+	{
+		"id": "challengeTicketLagrange",
+		"name": "Challenge Ticket: Lagrange Point",
+		"imageName": "ui_challenge_ticket_lagrange.png",
+		"group": "challenge",
+		"singleUnit": "Ticket",
+		"pluralUnit": "Tickets"
+	},
+	{
+		"id": "rune",
+		"name": "Rune",
+		"imageName": "ui_rune.png",
+		"singleUnit": "Rune",
+		"pluralUnit": "Runes"
+	},
+	{
+		"id": "magicClock",
+		"name": "Magic Watch",
+		"imageName": "ui_magic_clock.png",
+		"singleUnit": "Clock",
+		"pluralUnit": "Clocks"
+	},
+	{
+		"id": "goldenClock",
+		"name": "Golden Magic Watch",
+		"imageName": "ui_magic_clock_gold.png",
+		"singleUnit": "Clock",
+		"pluralUnit": "Clocks"
+	},
+	{
+		"id": "map",
+		"name": "Map",
+		"imageName": "ui_map.png",
+		"singleUnit": "Map",
+		"pluralUnit": "Maps"
+	},
+	{
+		"id": "goldenMap",
+		"name": "Golden Map",
+		"imageName": "ui_map_gold.png",
+		"singleUnit": "Map",
+		"pluralUnit": "Maps"
+	},
+	{
+		"id": "prismCrystal",
+		"name": "Prism Crystal",
+		"imageName": "ui_prism_crystal.png",
+		"singleUnit": "Crystal",
+		"pluralUnit": "Crystals"
+	},
+	{
+		"id": "prismStone",
+		"name": "Prism Stone",
+		"imageName": "ui_prism_stone.png",
+		"singleUnit": "Stone",
+		"pluralUnit": "Stones"
+	},
+	{
+		"id": "essence",
+		"name": "Essence of Blessing",
+		"imageName": "ui_blessing.png",
+		"singleUnit": "Essence",
+		"pluralUnit": "Essences"
+	},
+	{
+		"id": "stoneAwakening",
+		"name": "Stone of Awakening",
+		"imageName": "ui_ex_star.png",
+		"singleUnit": "Stone",
+		"pluralUnit": "Stones"
+	},
+	{
+		"id": "ruinShard",
+		"name": "Shard of Ruin",
+		"imageName": "ui_ruin_shard.png",
+		"singleUnit": "Shard",
+		"pluralUnit": "Shards"
+	},
+	{
+		"id": "stoneDestruction",
+		"name": "Stone of Destruction",
+		"imageName": "ui_ruin_stone.png",
+		"singleUnit": "Stone",
+		"pluralUnit": "Stones"
+	},
+	{
+		"id": "dimShard",
+		"name": "Dimensional Shard",
+		"imageName": "ui_dshard.png",
+		"singleUnit": "Shard",
+		"pluralUnit": "Shards"
+	},
+	{
+		"id": "dimStar",
+		"name": "Dimensional Star",
+		"imageName": "ui_dstar.png",
+		"singleUnit": "Star",
+		"pluralUnit": "Stars"
+	},
+	{
+		"id": "gold",
+		"name": "Gold",
+		"imageName": "ui_gold.png",
+		"singleUnit": "Gold",
+		"pluralUnit": "Gold"
+	},
+	{
+		"id": "power",
+		"name": "Power",
+		"imageName": "ui_power.png",
+		"singleUnit": "Power",
+		"pluralUnit": "Power"
+	},
+	{
+		"id": "soul",
+		"name": "Soul",
+		"imageName": "ui_soul.png",
+		"singleUnit": "Soul",
+		"pluralUnit": "Souls"
+	},
+	{
+		"id": "sciencePoint",
+		"name": "Science Points",
+		"imageName": "ui_science_point.png",
+		"singleUnit": "Point",
+		"pluralUnit": "Points"
+	},
+	{
+		"id": "ether",
+		"name": "Ether",
+		"imageName": "ui_ether.png",
+		"singleUnit": "Ether",
+		"pluralUnit": "Ether"
+	},
+	{
+		"id": "crystalEnlightenment",
+		"name": "Crystal of Enlightenment",
+		"imageName": "ui_truth_crystal.png",
+		"singleUnit": "Crystal",
+		"pluralUnit": "Crystals"
+	},
+	{
+		"id": "stoneTruth",
+		"name": "Stone of Truth",
+		"imageName": "ui_truth_stone.png",
+		"singleUnit": "Stone",
+		"pluralUnit": "Stones"
+	},
+	{
+		"id": "tachyonFuel",
+		"name": "Tachyon Fuel",
+		"imageName": "ui_tachyon.png",
+		"singleUnit": "Fuel",
+		"pluralUnit": "Fuel"
+	},
+	{
+		"id": "dimEnergy",
+		"name": "Dimensional Energy",
+		"imageName": "ui_dstone.png",
+		"singleUnit": "Energy",
+		"pluralUnit": "Energy"
+	},
+	{
+		"id": "blessingEnergy",
+		"name": "Blessing Energy",
+		"imageName": "ui_dtech_point.png",
+		"singleUnit": "Energy",
+		"pluralUnit": "Energy"
+	},
+	{
+		"id": "miracleCrystal",
+		"name": "Miracle Crystal",
+		"imageName": "ui_miracle_crystal.png",
+		"singleUnit": "Crystal",
+		"pluralUnit": "Crystals"
+	},
+	{
+		"id": "lightRevelation",
+		"name": "Light of Revelation",
+		"imageName": "ui_revelation_light.png",
+		"singleUnit": "Light",
+		"pluralUnit": "Light"
+	},
+	{
+		"id": "destinyEnergy",
+		"name": "Destiny Energy",
+		"imageName": "ui_destiny_energy.png",
+		"singleUnit": "Energy",
+		"pluralUnit": "Energy"
+	},
+	{
+		"id": "quantumPoint",
+		"name": "Quantum Point",
+		"imageName": "ui_quantum_point.png",
+		"singleUnit": "Point",
+		"pluralUnit": "Points"
+	},
+	{
+		"id": "ash",
+		"name": "Apocalyptic Ash",
+		"imageName": "ui_ash.png",
+		"singleUnit": "Ash",
+		"pluralUnit": "Ashes"
+	},
+	{
+		"id": "eventCoin",
+		"name": "Event Coin",
+		"imageName": "ui_event_coin.png",
+		"singleUnit": "Coin",
+		"pluralUnit": "Coins"
+	},
+	{
+		"id": "winterEventCoin",
+		"name": "Snowy Night Event Points",
+		"imageName": "ui_event_point_202511.png",
+		"singleUnit": "Coin",
+		"pluralUnit": "Coins"
+	},
+	{
+		"id": "1.5yEventCoin",
+		"name": "1.5 Year Anniversary Event Points",
+		"imageName": "ui_event_point_10002.png",
+		"singleUnit": "Point",
+		"pluralUnit": "Points"
+	},
+	{
+		"id": "prismPass",
+		"name": "Prism Pass",
+		"imageName": "ui_prism_pass.png",
+		"singleUnit": "Day",
+		"pluralUnit": "Days"
+	},
+	{
+		"id": "scroll",
+		"name": "Scroll",
+		"imageName": "ui_scroll.png",
+		"singleUnit": "Scroll",
+		"pluralUnit": "Scrolls"
+	},
+	{
+		"id": "goldenScroll",
+		"name": "Golden Scroll",
+		"imageName": "ui_scroll_gold.png",
+		"singleUnit": "Scroll",
+		"pluralUnit": "Scrolls"
+	},
+	{
+		"id": "libraryBook",
+		"name": "Book",
+		"imageName": "ui_book.png",
+		"singleUnit": "Book",
+		"pluralUnit": "Books"
+	},
+	{
+		"id": "prismCube",
+		"name": "Prism Cube",
+		"imageName": "ui_prism_cube.png",
+		"singleUnit": "Cube",
+		"pluralUnit": "Cubes"
+	},
+	{
+		"id": "dimFuel",
+		"name": "Dimensional Fuel",
+		"imageName": "ui_dfuel.png",
+		"singleUnit": "Fuel",
+		"pluralUnit": "Fuel"
+	},
+	{
+		"id": "timeCrystal",
+		"name": "Time Crystal",
+		"imageName": "ui_time_crystal.png",
+		"singleUnit": "Crystal",
+		"pluralUnit": "Crystals"
+	}
+]

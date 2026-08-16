@@ -1,0 +1,10 @@
+---
+import { WalkthroughPage } from "@/components/guides/WalkthroughPage";
+import { steps as stepsEn } from "@/data/walkthrough-en";
+import { steps as stepsEs } from "@/data/walkthrough-es";
+import BaseLayout from "@/layouts/BaseLayout.astro";
+---
+
+<BaseLayout title="Brick Inc — Walkthrough">
+	<WalkthroughPage client:load stepsByLocale={{ es: stepsEs, en: stepsEn }} />
+</BaseLayout>

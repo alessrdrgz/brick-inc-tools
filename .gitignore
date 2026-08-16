@@ -1,0 +1,28 @@
+# build
+dist/
+.astro/
+
+# deps
+node_modules/
+.pnpm-store/
+.pnpm-home/
+.npm-cache/
+.cache/
+.config/
+
+# env / OS
+.env
+.env.*
+!.env.example
+.DS_Store
+
+# logs
+*.log
+npm-debug.log*
+pnpm-debug.log*
+
+# local artifacts
+brickinc-main.js
+brick-tmp/
+
+old-project/

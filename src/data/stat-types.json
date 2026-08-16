@@ -1,0 +1,170 @@
+[
+	{
+		"type": "AllBrickDurability",
+		"imgSrc": "ui_bo_block_hp_down.png",
+		"unitValue": -25,
+		"unit": "%"
+	},
+	{
+		"type": "AllWeaponAttackSpeed",
+		"imgSrc": "ui_bo_all_weapon_spd.png",
+		"unitValue": 5,
+		"unit": "%"
+	},
+	{
+		"type": "AllWeaponsDamage",
+		"imgSrc": "ui_bo_all_weapon_dmg.png",
+		"unitValue": 15,
+		"unit": "%"
+	},
+	{
+		"type": "AllWeaponsMaxEnhancementLevel",
+		"imgSrc": "ui_bo_all_weapon_level.png",
+		"unitValue": 25,
+		"unit": ""
+	},
+	{
+		"type": "CombatATK",
+		"imgSrc": "ui_bo_battle_atk.png",
+		"unitValue": 15,
+		"unit": "%"
+	},
+	{
+		"type": "CombatHP",
+		"imgSrc": "ui_bo_battle_hp.png",
+		"unitValue": 15,
+		"unit": "%"
+	},
+	{
+		"type": "CritDamage",
+		"imgSrc": "ui_bo_cri_dmg.png",
+		"unitValue": 15,
+		"unit": "%"
+	},
+	{
+		"type": "DiamondBrickAppearanceRate",
+		"imgSrc": "ui_bo_diamond_brick_chance.png",
+		"unitValue": 1.1,
+		"unit": ""
+	},
+	{
+		"type": "DimensionalEnergyProduction",
+		"imgSrc": "ui_bo_dstone.png",
+		"unitValue": 5,
+		"unit": "%"
+	},
+	{
+		"type": "DivineBeastHP",
+		"imgSrc": "ui_bo_divine_beast_hp_down.png",
+		"unitValue": -50,
+		"unit": "%"
+	},
+	{
+		"type": "EtherProduction",
+		"imgSrc": "ui_bo_ether.png",
+		"unitValue": 10,
+		"unit": "%"
+	},
+	{
+		"type": "ForgingSpeed",
+		"imgSrc": "ui_bo_forge_speed.png",
+		"unitValue": 5,
+		"unit": "%"
+	},
+	{
+		"type": "GoldBrickAppearanceRate",
+		"imgSrc": "ui_bo_gold_brick_chance.png",
+		"unitValue": 1.1,
+		"unit": ""
+	},
+	{
+		"type": "MaxTimeForMiningRewards",
+		"imgSrc": "ui_bo_mining_time_limit.png",
+		"unitValue": 30,
+		"unit": "m"
+	},
+	{
+		"type": "MiningSpeed",
+		"imgSrc": "ui_bo_mining_speed.png",
+		"unitValue": 10,
+		"unit": "%"
+	},
+	{
+		"type": "ObtainedGold",
+		"imgSrc": "ui_bo_gold.png",
+		"unitValue": 20,
+		"unit": "%"
+	},
+	{
+		"type": "ObtainedPower",
+		"imgSrc": "ui_bo_power.png",
+		"unitValue": 20,
+		"unit": "%"
+	},
+	{
+		"type": "ObtainedSoul",
+		"imgSrc": "ui_bo_prestige_bonus.png",
+		"unitValue": 25,
+		"unit": "%"
+	},
+	{
+		"type": "PowerNeededToRankUp",
+		"imgSrc": "ui_bo_rank_power_down.png",
+		"unitValue": -50,
+		"unit": "%"
+	},
+	{
+		"type": "ResearchCost",
+		"imgSrc": "ui_bo_research_cost_down.png",
+		"unitValue": -50,
+		"unit": "%"
+	},
+	{
+		"type": "RuneDiscoveryRate",
+		"imgSrc": "ui_bo_rune_chance.png",
+		"unitValue": 1.05,
+		"unit": ""
+	},
+	{
+		"type": "SciencePointsProduced",
+		"imgSrc": "ui_bo_science_point.png",
+		"unitValue": 20,
+		"unit": "%"
+	},
+	{
+		"type": "ScienceRank",
+		"imgSrc": "ui_bo_science_rank.png",
+		"unitValue": 5,
+		"unit": ""
+	},
+	{
+		"type": "SoulEnhancementMaxLv",
+		"imgSrc": "ui_bo_soul_enhance_max_level_up.png",
+		"unitValue": 1,
+		"unit": ""
+	},
+	{
+		"type": "SuperCritDamage",
+		"imgSrc": "ui_bo_super_cri_dmg.png",
+		"unitValue": 15,
+		"unit": "%"
+	},
+	{
+		"type": "TempleOfChaosAdditionalItemDrop",
+		"imgSrc": "ui_bo_rank_special_bonus_up.png",
+		"unitValue": 1,
+		"unit": ""
+	},
+	{
+		"type": "WeaponsEnhancementEffect",
+		"imgSrc": "ui_bo_weapon_enhance_bonus.png",
+		"unitValue": 15,
+		"unit": "%"
+	},
+	{
+		"type": "WeaponsPurchaseandEnhancementCost",
+		"imgSrc": "ui_bo_weapon_enhance_cost_down.png",
+		"unitValue": -50,
+		"unit": "%"
+	}
+]

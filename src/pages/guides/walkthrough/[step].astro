@@ -1,0 +1,23 @@
+---
+import { WalkthroughPage } from "@/components/guides/WalkthroughPage";
+import { stepIds } from "@/data/types";
+import { steps as stepsEn } from "@/data/walkthrough-en";
+import { steps as stepsEs } from "@/data/walkthrough-es";
+import BaseLayout from "@/layouts/BaseLayout.astro";
+
+export function getStaticPaths() {
+	return stepIds.map((step) => ({ params: { step } }));
+}
+
+const { step } = Astro.params;
+---
+
+<BaseLayout title={`Brick Inc — ${step}`}>
+	<WalkthroughPage client:load stepsByLocale={{ es: stepsEs, en: stepsEn }} />
+	<script is:inline define:vars={{ step }}>
+		window.addEventListener("DOMContentLoaded", () => {
+			const el = document.getElementById(step);
+			if (el) el.scrollIntoView({ behavior: "smooth", block: "start" });
+		});
+	</script>
+</BaseLayout>

@@ -1,0 +1,1838 @@
+[
+	[
+		{
+			"id": "8-57",
+			"neighborIds": ["8-56", "8-58"],
+			"stats": [
+				{ "type": "DimensionalEnergyProduction", "value": 10 },
+				{ "type": "ObtainedGold", "value": 100 },
+				{ "type": "ObtainedPower", "value": 100 },
+				{ "type": "PowerNeededToRankUp", "value": -75 }
+			],
+			"rarity": "legendary"
+		},
+		{
+			"id": "8-58",
+			"neighborIds": ["8-57", "8-59"],
+			"stats": [{ "type": "PowerNeededToRankUp", "value": -50 }],
+			"rarity": "common"
+		},
+		{
+			"id": "8-59",
+			"neighborIds": ["8-58", "8-60"],
+			"stats": [{ "type": "PowerNeededToRankUp", "value": -50 }],
+			"rarity": "common"
+		},
+		{
+			"id": "8-60",
+			"neighborIds": ["8-59", "8-61"],
+			"stats": [{ "type": "ObtainedPower", "value": 20 }],
+			"rarity": "common"
+		},
+		{
+			"id": "8-61",
+			"neighborIds": ["7-53", "8-60", "8-62"],
+			"stats": [{ "type": "ObtainedPower", "value": 20 }],
+			"rarity": "common"
+		},
+		{
+			"id": "8-62",
+			"neighborIds": ["8-61", "8-63"],
+			"stats": [{ "type": "ObtainedPower", "value": 20 }],
+			"rarity": "common"
+		},
+		{
+			"id": "8-63",
+			"neighborIds": ["8-62", "8-64"],
+			"stats": [{ "type": "ScienceRank", "value": 5 }],
+			"rarity": "rare"
+		},
+		{
+			"id": "8-64",
+			"neighborIds": ["8-1", "8-63"],
+			"stats": [{ "type": "SciencePointsProduced", "value": 20 }],
+			"rarity": "common"
+		},
+		{
+			"id": "8-1",
+			"neighborIds": ["7-1", "8-2", "8-64"],
+			"stats": [{ "type": "SciencePointsProduced", "value": 20 }],
+			"rarity": "common"
+		},
+		{
+			"id": "8-2",
+			"neighborIds": ["8-1", "8-3"],
+			"stats": [{ "type": "SciencePointsProduced", "value": 20 }],
+			"rarity": "common"
+		},
+		{
+			"id": "8-3",
+			"neighborIds": ["8-2", "8-4"],
+			"stats": [{ "type": "ScienceRank", "value": 5 }],
+			"rarity": "rare"
+		},
+		{
+			"id": "8-4",
+			"neighborIds": ["8-3", "8-5"],
+			"stats": [{ "type": "ObtainedSoul", "value": 25 }],
+			"rarity": "common"
+		},
+		{
+			"id": "8-5",
+			"neighborIds": ["7-5", "8-4", "8-6"],
+			"stats": [{ "type": "ObtainedSoul", "value": 25 }],
+			"rarity": "common"
+		},
+		{
+			"id": "8-6",
+			"neighborIds": ["8-5", "8-7"],
+			"stats": [{ "type": "ObtainedSoul", "value": 25 }],
+			"rarity": "common"
+		},
+		{
+			"id": "8-7",
+			"neighborIds": ["8-6", "8-8"],
+			"stats": [{ "type": "ObtainedSoul", "value": 25 }],
+			"rarity": "common"
+		},
+		{
+			"id": "8-8",
+			"neighborIds": ["8-7", "8-9"],
+			"stats": [{ "type": "WeaponsEnhancementEffect", "value": 15 }],
+			"rarity": "common"
+		},
+		{
+			"id": "8-9",
+			"neighborIds": ["8-10", "8-8"],
+			"stats": [
+				{ "type": "EtherProduction", "value": 25 },
+				{ "type": "AllWeaponsDamage", "value": 50 },
+				{ "type": "ObtainedSoul", "value": 100 },
+				{ "type": "SoulEnhancementMaxLv", "value": 1 }
+			],
+			"rarity": "legendary"
+		}
+	],
+	[
+		{
+			"id": "8-56",
+			"neighborIds": ["8-55", "8-57"],
+			"stats": [{ "type": "PowerNeededToRankUp", "value": -50 }],
+			"rarity": "common"
+		},
+		{
+			"id": "7-50",
+			"neighborIds": ["7-51"],
+			"stats": [{ "type": "SciencePointsProduced", "value": 20 }],
+			"rarity": "common"
+		},
+		{
+			"id": "7-51",
+			"neighborIds": ["6-43", "7-50"],
+			"stats": [{ "type": "SciencePointsProduced", "value": 20 }],
+			"rarity": "common"
+		},
+		{
+			"id": "7-52",
+			"neighborIds": ["6-44", "7-53"],
+			"stats": [{ "type": "PowerNeededToRankUp", "value": -50 }],
+			"rarity": "common"
+		},
+		{
+			"id": "7-53",
+			"neighborIds": ["6-45", "7-52", "7-54", "8-61"],
+			"stats": [{ "type": "DimensionalEnergyProduction", "value": 5 }],
+			"rarity": "rare"
+		},
+		{
+			"id": "7-54",
+			"neighborIds": ["6-46", "7-53", "7-55"],
+			"stats": [{ "type": "ObtainedPower", "value": 20 }],
+			"rarity": "common"
+		},
+		{
+			"id": "7-55",
+			"neighborIds": ["7-54", "7-56"],
+			"stats": [{ "type": "ObtainedPower", "value": 20 }],
+			"rarity": "common"
+		},
+		{
+			"id": "7-56",
+			"neighborIds": ["6-48", "7-1", "7-55"],
+			"stats": [{ "type": "ObtainedPower", "value": 20 }],
+			"rarity": "common"
+		},
+		{
+			"id": "7-1",
+			"neighborIds": ["7-2", "7-56", "8-1"],
+			"stats": [
+				{ "type": "DimensionalEnergyProduction", "value": 10 },
+				{ "type": "ObtainedPower", "value": 100 },
+				{ "type": "PowerNeededToRankUp", "value": -75 }
+			],
+			"rarity": "legendary"
+		},
+		{
+			"id": "7-2",
+			"neighborIds": ["7-1", "7-3"],
+			"stats": [{ "type": "ObtainedSoul", "value": 25 }],
+			"rarity": "common"
+		},
+		{
+			"id": "7-3",
+			"neighborIds": ["7-2", "7-4"],
+			"stats": [{ "type": "ObtainedSoul", "value": 25 }],
+			"rarity": "common"
+		},
+		{
+			"id": "7-4",
+			"neighborIds": ["6-4", "7-3", "7-5"],
+			"stats": [{ "type": "ObtainedSoul", "value": 25 }],
+			"rarity": "common"
+		},
+		{
+			"id": "7-5",
+			"neighborIds": ["6-5", "7-4", "7-6", "8-5"],
+			"stats": [{ "type": "SoulEnhancementMaxLv", "value": 1 }],
+			"rarity": "rare"
+		},
+		{
+			"id": "7-6",
+			"neighborIds": ["7-5", "7-7"],
+			"stats": [{ "type": "SciencePointsProduced", "value": 20 }],
+			"rarity": "common"
+		},
+		{
+			"id": "7-7",
+			"neighborIds": ["6-7", "7-6", "7-8"],
+			"stats": [{ "type": "SciencePointsProduced", "value": 20 }],
+			"rarity": "common"
+		},
+		{
+			"id": "7-8",
+			"neighborIds": ["7-7"],
+			"stats": [{ "type": "SciencePointsProduced", "value": 20 }],
+			"rarity": "common"
+		},
+		{
+			"id": "8-10",
+			"neighborIds": ["8-11", "8-9"],
+			"stats": [{ "type": "WeaponsEnhancementEffect", "value": 15 }],
+			"rarity": "common"
+		}
+	],
+	[
+		{
+			"id": "8-55",
+			"neighborIds": ["8-54", "8-56"],
+			"stats": [{ "type": "PowerNeededToRankUp", "value": -50 }],
+			"rarity": "common"
+		},
+		{
+			"id": "7-49",
+			"neighborIds": ["6-43"],
+			"stats": [{ "type": "SciencePointsProduced", "value": 20 }],
+			"rarity": "common"
+		},
+		{
+			"id": "6-43",
+			"neighborIds": ["6-42", "6-44", "7-49", "7-51"],
+			"stats": [{ "type": "DimensionalEnergyProduction", "value": 10 }],
+			"rarity": "epic"
+		},
+		{
+			"id": "6-44",
+			"neighborIds": ["6-43", "7-52"],
+			"stats": [{ "type": "SciencePointsProduced", "value": 20 }],
+			"rarity": "common"
+		},
+		{
+			"id": "6-45",
+			"neighborIds": ["5-37", "7-53"],
+			"stats": [{ "type": "ObtainedGold", "value": 20 }],
+			"rarity": "common"
+		},
+		{
+			"id": "6-46",
+			"neighborIds": ["6-47", "7-54"],
+			"stats": [{ "type": "ObtainedPower", "value": 20 }],
+			"rarity": "common"
+		},
+		{
+			"id": "6-47",
+			"neighborIds": ["5-39", "6-46"],
+			"stats": [{ "type": "ObtainedPower", "value": 20 }],
+			"rarity": "common"
+		},
+		{
+			"id": "6-48",
+			"neighborIds": ["6-1", "7-56"],
+			"stats": [{ "type": "ObtainedSoul", "value": 25 }],
+			"rarity": "common"
+		},
+		{
+			"id": "6-1",
+			"neighborIds": ["6-2", "6-48"],
+			"stats": [{ "type": "ObtainedSoul", "value": 25 }],
+			"rarity": "common"
+		},
+		{
+			"id": "6-2",
+			"neighborIds": ["6-1", "6-3"],
+			"stats": [{ "type": "ObtainedSoul", "value": 25 }],
+			"rarity": "common"
+		},
+		{
+			"id": "6-3",
+			"neighborIds": ["5-3", "6-2", "6-4"],
+			"stats": [{ "type": "ObtainedSoul", "value": 25 }],
+			"rarity": "common"
+		},
+		{
+			"id": "6-4",
+			"neighborIds": ["6-3", "7-4"],
+			"stats": [{ "type": "ObtainedSoul", "value": 25 }],
+			"rarity": "common"
+		},
+		{
+			"id": "6-5",
+			"neighborIds": ["5-5", "6-6", "7-5"],
+			"stats": [{ "type": "WeaponsEnhancementEffect", "value": 15 }],
+			"rarity": "common"
+		},
+		{
+			"id": "6-6",
+			"neighborIds": ["6-5"],
+			"stats": [{ "type": "WeaponsEnhancementEffect", "value": 15 }],
+			"rarity": "common"
+		},
+		{
+			"id": "6-7",
+			"neighborIds": ["7-7"],
+			"stats": [{ "type": "EtherProduction", "value": 25 }],
+			"rarity": "epic"
+		},
+		{
+			"id": "7-9",
+			"neighborIds": ["7-10"],
+			"stats": [{ "type": "SciencePointsProduced", "value": 20 }],
+			"rarity": "common"
+		},
+		{
+			"id": "8-11",
+			"neighborIds": ["8-10", "8-12"],
+			"stats": [{ "type": "AllWeaponsDamage", "value": 15 }],
+			"rarity": "common"
+		}
+	],
+	[
+		{
+			"id": "8-54",
+			"neighborIds": ["8-53", "8-55"],
+			"stats": [{ "type": "PowerNeededToRankUp", "value": -50 }],
+			"rarity": "common"
+		},
+		{
+			"id": "7-48",
+			"neighborIds": ["6-42", "7-47"],
+			"stats": [{ "type": "PowerNeededToRankUp", "value": -50 }],
+			"rarity": "common"
+		},
+		{
+			"id": "6-42",
+			"neighborIds": ["6-43", "7-48"],
+			"stats": [{ "type": "SciencePointsProduced", "value": 20 }],
+			"rarity": "common"
+		},
+		{
+			"id": "5-36",
+			"neighborIds": ["5-35", "5-37"],
+			"stats": [{ "type": "ObtainedGold", "value": 50 }],
+			"rarity": "rare"
+		},
+		{
+			"id": "5-37",
+			"neighborIds": ["5-36", "6-45"],
+			"stats": [{ "type": "ObtainedGold", "value": 20 }],
+			"rarity": "common"
+		},
+		{
+			"id": "5-38",
+			"neighborIds": ["4-30", "5-39"],
+			"stats": [{ "type": "PowerNeededToRankUp", "value": -50 }],
+			"rarity": "common"
+		},
+		{
+			"id": "5-39",
+			"neighborIds": ["4-31", "5-38", "6-47"],
+			"stats": [
+				{ "type": "PowerNeededToRankUp", "value": -50 },
+				{ "type": "ObtainedPower", "value": 20 }
+			],
+			"rarity": "rare"
+		},
+		{
+			"id": "5-40",
+			"neighborIds": ["4-32", "5-1"],
+			"stats": [{ "type": "ObtainedPower", "value": 20 }],
+			"rarity": "common"
+		},
+		{
+			"id": "5-1",
+			"neighborIds": ["5-2", "5-40"],
+			"stats": [{ "type": "ObtainedPower", "value": 20 }],
+			"rarity": "common"
+		},
+		{
+			"id": "5-2",
+			"neighborIds": ["5-1", "5-3"],
+			"stats": [{ "type": "ObtainedPower", "value": 20 }],
+			"rarity": "common"
+		},
+		{
+			"id": "5-3",
+			"neighborIds": ["4-3", "5-2", "5-4", "6-3"],
+			"stats": [{ "type": "SoulEnhancementMaxLv", "value": 1 }],
+			"rarity": "rare"
+		},
+		{
+			"id": "5-4",
+			"neighborIds": ["5-3", "5-5"],
+			"stats": [{ "type": "WeaponsEnhancementEffect", "value": 15 }],
+			"rarity": "common"
+		},
+		{
+			"id": "5-5",
+			"neighborIds": ["4-5", "5-4", "5-6", "6-5"],
+			"stats": [{ "type": "WeaponsEnhancementEffect", "value": 15 }],
+			"rarity": "common"
+		},
+		{
+			"id": "5-6",
+			"neighborIds": ["5-5", "5-7"],
+			"stats": [
+				{ "type": "WeaponsEnhancementEffect", "value": 15 },
+				{ "type": "AllWeaponsDamage", "value": 15 }
+			],
+			"rarity": "rare"
+		},
+		{
+			"id": "6-8",
+			"neighborIds": ["6-9"],
+			"stats": [{ "type": "AllWeaponsDamage", "value": 15 }],
+			"rarity": "common"
+		},
+		{
+			"id": "7-10",
+			"neighborIds": ["7-11", "7-9"],
+			"stats": [{ "type": "SciencePointsProduced", "value": 20 }],
+			"rarity": "common"
+		},
+		{
+			"id": "8-12",
+			"neighborIds": ["8-11", "8-13"],
+			"stats": [{ "type": "AllWeaponsDamage", "value": 15 }],
+			"rarity": "common"
+		}
+	],
+	[
+		{
+			"id": "8-53",
+			"neighborIds": ["7-47", "8-52", "8-54"],
+			"stats": [{ "type": "ObtainedGold", "value": 20 }],
+			"rarity": "common"
+		},
+		{
+			"id": "7-47",
+			"neighborIds": ["6-41", "7-46", "7-48", "8-53"],
+			"stats": [{ "type": "DimensionalEnergyProduction", "value": 5 }],
+			"rarity": "rare"
+		},
+		{
+			"id": "6-41",
+			"neighborIds": ["5-35", "7-47"],
+			"stats": [{ "type": "ObtainedGold", "value": 20 }],
+			"rarity": "common"
+		},
+		{
+			"id": "5-35",
+			"neighborIds": ["5-34", "5-36", "6-41"],
+			"stats": [{ "type": "ObtainedGold", "value": 20 }],
+			"rarity": "common"
+		},
+		{
+			"id": "4-29",
+			"neighborIds": ["4-30"],
+			"stats": [{ "type": "PowerNeededToRankUp", "value": -50 }],
+			"rarity": "common"
+		},
+		{
+			"id": "4-30",
+			"neighborIds": ["3-22", "4-29", "5-38"],
+			"stats": [{ "type": "PowerNeededToRankUp", "value": -50 }],
+			"rarity": "common"
+		},
+		{
+			"id": "4-31",
+			"neighborIds": ["3-23", "4-32", "5-39"],
+			"stats": [{ "type": "ObtainedPower", "value": 20 }],
+			"rarity": "common"
+		},
+		{
+			"id": "4-32",
+			"neighborIds": ["3-24", "4-31", "5-40"],
+			"stats": [{ "type": "ObtainedPower", "value": 20 }],
+			"rarity": "common"
+		},
+		{
+			"id": "4-1",
+			"neighborIds": ["4-2"],
+			"stats": [{ "type": "ObtainedSoul", "value": 25 }],
+			"rarity": "common"
+		},
+		{
+			"id": "4-2",
+			"neighborIds": ["3-2", "4-1", "4-3"],
+			"stats": [{ "type": "ObtainedSoul", "value": 25 }],
+			"rarity": "common"
+		},
+		{
+			"id": "4-3",
+			"neighborIds": ["3-3", "4-2", "4-4", "5-3"],
+			"stats": [{ "type": "ObtainedSoul", "value": 25 }],
+			"rarity": "common"
+		},
+		{
+			"id": "4-4",
+			"neighborIds": ["3-4", "4-3"],
+			"stats": [{ "type": "ObtainedSoul", "value": 25 }],
+			"rarity": "common"
+		},
+		{
+			"id": "4-5",
+			"neighborIds": ["4-6", "5-5"],
+			"stats": [{ "type": "WeaponsEnhancementEffect", "value": 15 }],
+			"rarity": "common"
+		},
+		{
+			"id": "5-7",
+			"neighborIds": ["5-6", "5-8", "6-9"],
+			"stats": [{ "type": "AllWeaponsDamage", "value": 15 }],
+			"rarity": "common"
+		},
+		{
+			"id": "6-9",
+			"neighborIds": ["5-7", "6-8", "7-11"],
+			"stats": [{ "type": "AllWeaponsDamage", "value": 15 }],
+			"rarity": "common"
+		},
+		{
+			"id": "7-11",
+			"neighborIds": ["6-9", "7-10", "8-13"],
+			"stats": [{ "type": "EtherProduction", "value": 10 }],
+			"rarity": "rare"
+		},
+		{
+			"id": "8-13",
+			"neighborIds": ["7-11", "8-12", "8-14"],
+			"stats": [{ "type": "AllWeaponsDamage", "value": 15 }],
+			"rarity": "common"
+		}
+	],
+	[
+		{
+			"id": "8-52",
+			"neighborIds": ["8-51", "8-53"],
+			"stats": [{ "type": "ObtainedGold", "value": 20 }],
+			"rarity": "common"
+		},
+		{
+			"id": "7-46",
+			"neighborIds": ["6-40", "7-45", "7-47"],
+			"stats": [{ "type": "ResearchCost", "value": -50 }],
+			"rarity": "common"
+		},
+		{
+			"id": "6-40",
+			"neighborIds": ["6-39", "7-46"],
+			"stats": [{ "type": "ResearchCost", "value": -50 }],
+			"rarity": "common"
+		},
+		{
+			"id": "5-34",
+			"neighborIds": ["4-28", "5-35"],
+			"stats": [{ "type": "ObtainedGold", "value": 20 }],
+			"rarity": "common"
+		},
+		{
+			"id": "4-28",
+			"neighborIds": ["3-22", "4-27", "5-34"],
+			"stats": [{ "type": "ObtainedGold", "value": 20 }],
+			"rarity": "common"
+		},
+		{
+			"id": "3-22",
+			"neighborIds": ["3-23", "4-28", "4-30"],
+			"stats": [{ "type": "ObtainedGold", "value": 50 }, { "type": "ObtainedPower", "value": 50 }],
+			"rarity": "epic"
+		},
+		{
+			"id": "3-23",
+			"neighborIds": ["3-22", "3-24", "4-31"],
+			"stats": [{ "type": "ObtainedPower", "value": 20 }],
+			"rarity": "common"
+		},
+		{
+			"id": "3-24",
+			"neighborIds": ["2-16", "3-1", "3-23", "4-32"],
+			"stats": [{ "type": "ObtainedPower", "value": 20 }],
+			"rarity": "common"
+		},
+		{
+			"id": "3-1",
+			"neighborIds": ["3-2", "3-24"],
+			"stats": [{ "type": "ObtainedPower", "value": 20 }, { "type": "ObtainedSoul", "value": 25 }],
+			"rarity": "rare"
+		},
+		{
+			"id": "3-2",
+			"neighborIds": ["2-2", "3-1", "3-3", "4-2"],
+			"stats": [{ "type": "ObtainedSoul", "value": 25 }],
+			"rarity": "common"
+		},
+		{
+			"id": "3-3",
+			"neighborIds": ["3-2", "3-4", "4-3"],
+			"stats": [{ "type": "ObtainedSoul", "value": 25 }],
+			"rarity": "common"
+		},
+		{
+			"id": "3-4",
+			"neighborIds": ["3-3", "3-5", "4-4", "4-6"],
+			"stats": [
+				{ "type": "SoulEnhancementMaxLv", "value": 1 },
+				{ "type": "ObtainedSoul", "value": 25 }
+			],
+			"rarity": "epic"
+		},
+		{
+			"id": "4-6",
+			"neighborIds": ["3-4", "4-5"],
+			"stats": [{ "type": "WeaponsEnhancementEffect", "value": 15 }],
+			"rarity": "common"
+		},
+		{
+			"id": "5-8",
+			"neighborIds": ["5-7", "5-9"],
+			"stats": [{ "type": "AllWeaponsDamage", "value": 15 }],
+			"rarity": "common"
+		},
+		{
+			"id": "6-10",
+			"neighborIds": ["6-11", "7-12"],
+			"stats": [{ "type": "CritDamage", "value": 15 }],
+			"rarity": "common"
+		},
+		{
+			"id": "7-12",
+			"neighborIds": ["6-10", "7-13"],
+			"stats": [{ "type": "CritDamage", "value": 15 }],
+			"rarity": "common"
+		},
+		{
+			"id": "8-14",
+			"neighborIds": ["8-13", "8-15"],
+			"stats": [{ "type": "CritDamage", "value": 15 }],
+			"rarity": "common"
+		}
+	],
+	[
+		{
+			"id": "8-51",
+			"neighborIds": ["8-50", "8-52"],
+			"stats": [{ "type": "ScienceRank", "value": 5 }],
+			"rarity": "rare"
+		},
+		{
+			"id": "7-45",
+			"neighborIds": ["7-44", "7-46"],
+			"stats": [{ "type": "ResearchCost", "value": -50 }],
+			"rarity": "common"
+		},
+		{
+			"id": "6-39",
+			"neighborIds": ["5-33", "6-38", "6-40"],
+			"stats": [{ "type": "ResearchCost", "value": -50 }],
+			"rarity": "common"
+		},
+		{
+			"id": "5-33",
+			"neighborIds": ["4-27", "5-32", "6-39"],
+			"stats": [{ "type": "ResearchCost", "value": -50 }, { "type": "ObtainedGold", "value": 20 }],
+			"rarity": "rare"
+		},
+		{
+			"id": "4-27",
+			"neighborIds": ["3-21", "4-28", "5-33"],
+			"stats": [{ "type": "ObtainedGold", "value": 20 }],
+			"rarity": "common"
+		},
+		{
+			"id": "3-21",
+			"neighborIds": ["3-20", "4-27"],
+			"stats": [{ "type": "ObtainedGold", "value": 20 }],
+			"rarity": "common"
+		},
+		{
+			"id": "2-15",
+			"neighborIds": ["2-14", "2-16"],
+			"stats": [{ "type": "SciencePointsProduced", "value": 40 }],
+			"rarity": "rare"
+		},
+		{
+			"id": "2-16",
+			"neighborIds": ["2-1", "2-15", "3-24"],
+			"stats": [{ "type": "ObtainedPower", "value": 20 }],
+			"rarity": "common"
+		},
+		{
+			"id": "2-1",
+			"neighborIds": ["1-1", "2-16", "2-2"],
+			"stats": [{ "type": "ObtainedPower", "value": 20 }],
+			"rarity": "common"
+		},
+		{
+			"id": "2-2",
+			"neighborIds": ["2-1", "2-3", "3-2"],
+			"stats": [{ "type": "ObtainedSoul", "value": 25 }],
+			"rarity": "common"
+		},
+		{
+			"id": "2-3",
+			"neighborIds": ["2-2", "2-4"],
+			"stats": [{ "type": "SciencePointsProduced", "value": 40 }],
+			"rarity": "rare"
+		},
+		{
+			"id": "3-5",
+			"neighborIds": ["3-4", "4-7"],
+			"stats": [{ "type": "WeaponsEnhancementEffect", "value": 15 }],
+			"rarity": "common"
+		},
+		{
+			"id": "4-7",
+			"neighborIds": ["3-5", "4-8", "5-9"],
+			"stats": [{ "type": "WeaponsEnhancementEffect", "value": 15 }],
+			"rarity": "common"
+		},
+		{
+			"id": "5-9",
+			"neighborIds": ["4-7", "5-10", "5-8"],
+			"stats": [
+				{ "type": "WeaponsEnhancementEffect", "value": 15 },
+				{ "type": "AllWeaponsDamage", "value": 15 }
+			],
+			"rarity": "rare"
+		},
+		{
+			"id": "6-11",
+			"neighborIds": ["6-10", "6-12"],
+			"stats": [{ "type": "CritDamage", "value": 15 }],
+			"rarity": "common"
+		},
+		{
+			"id": "7-13",
+			"neighborIds": ["7-12", "7-14"],
+			"stats": [{ "type": "CritDamage", "value": 15 }],
+			"rarity": "common"
+		},
+		{
+			"id": "8-15",
+			"neighborIds": ["8-14", "8-16"],
+			"stats": [{ "type": "ScienceRank", "value": 5 }],
+			"rarity": "rare"
+		}
+	],
+	[
+		{
+			"id": "8-50",
+			"neighborIds": ["8-49", "8-51"],
+			"stats": [{ "type": "SciencePointsProduced", "value": 20 }],
+			"rarity": "common"
+		},
+		{
+			"id": "7-44",
+			"neighborIds": ["7-43", "7-45"],
+			"stats": [{ "type": "ResearchCost", "value": -50 }],
+			"rarity": "common"
+		},
+		{
+			"id": "6-38",
+			"neighborIds": ["5-32", "6-39"],
+			"stats": [{ "type": "ResearchCost", "value": -50 }],
+			"rarity": "common"
+		},
+		{
+			"id": "5-32",
+			"neighborIds": ["4-26", "5-31", "5-33", "6-38"],
+			"stats": [{ "type": "ResearchCost", "value": -50 }],
+			"rarity": "common"
+		},
+		{
+			"id": "4-26",
+			"neighborIds": ["3-20", "5-32"],
+			"stats": [{ "type": "ResearchCost", "value": -50 }],
+			"rarity": "common"
+		},
+		{
+			"id": "3-20",
+			"neighborIds": ["2-14", "3-19", "3-21", "4-26"],
+			"stats": [{ "type": "ResearchCost", "value": -50 }],
+			"rarity": "common"
+		},
+		{
+			"id": "2-14",
+			"neighborIds": ["2-13", "2-15", "3-20"],
+			"stats": [{ "type": "ObtainedGold", "value": 20 }],
+			"rarity": "common"
+		},
+		{
+			"id": "1-8",
+			"neighborIds": ["1-1", "1-7"],
+			"stats": [{ "type": "ObtainedPower", "value": 20 }, { "type": "ObtainedGold", "value": 20 }],
+			"rarity": "rare"
+		},
+		{
+			"id": "1-1",
+			"neighborIds": ["1-2", "1-8", "2-1", "0"],
+			"stats": [{ "type": "ObtainedPower", "value": 20 }],
+			"rarity": "common"
+		},
+		{
+			"id": "1-2",
+			"neighborIds": ["1-1", "1-3"],
+			"stats": [
+				{ "type": "ObtainedPower", "value": 20 },
+				{ "type": "AllWeaponsDamage", "value": 15 }
+			],
+			"rarity": "rare"
+		},
+		{
+			"id": "2-4",
+			"neighborIds": ["2-3", "2-5", "3-6"],
+			"stats": [{ "type": "AllWeaponsDamage", "value": 15 }],
+			"rarity": "common"
+		},
+		{
+			"id": "3-6",
+			"neighborIds": ["2-4", "3-7", "4-8"],
+			"stats": [{ "type": "AllWeaponsDamage", "value": 15 }],
+			"rarity": "common"
+		},
+		{
+			"id": "4-8",
+			"neighborIds": ["3-6", "4-7", "5-10"],
+			"stats": [{ "type": "AllWeaponsDamage", "value": 15 }],
+			"rarity": "common"
+		},
+		{
+			"id": "5-10",
+			"neighborIds": ["4-8", "5-9", "6-12"],
+			"stats": [{ "type": "AllWeaponsDamage", "value": 15 }],
+			"rarity": "common"
+		},
+		{
+			"id": "6-12",
+			"neighborIds": ["5-10", "6-11"],
+			"stats": [{ "type": "CritDamage", "value": 15 }],
+			"rarity": "common"
+		},
+		{
+			"id": "7-14",
+			"neighborIds": ["7-13", "7-15"],
+			"stats": [{ "type": "CritDamage", "value": 15 }],
+			"rarity": "common"
+		},
+		{
+			"id": "8-16",
+			"neighborIds": ["8-15", "8-17"],
+			"stats": [{ "type": "SciencePointsProduced", "value": 20 }],
+			"rarity": "common"
+		}
+	],
+	[
+		{
+			"id": "8-49",
+			"neighborIds": ["7-43", "8-48", "8-50"],
+			"stats": [{ "type": "SciencePointsProduced", "value": 20 }],
+			"rarity": "common"
+		},
+		{
+			"id": "7-43",
+			"neighborIds": ["7-42", "7-44", "8-49"],
+			"stats": [
+				{ "type": "DiamondBrickAppearanceRate", "value": 1.1 },
+				{ "type": "ObtainedGold", "value": 100 },
+				{ "type": "ResearchCost", "value": -75 },
+				{ "type": "WeaponsPurchaseandEnhancementCost", "value": -75 }
+			],
+			"rarity": "legendary"
+		},
+		{
+			"id": "6-37",
+			"neighborIds": ["5-31"],
+			"stats": [{ "type": "ObtainedGold", "value": 20 }],
+			"rarity": "common"
+		},
+		{
+			"id": "5-31",
+			"neighborIds": ["4-25", "5-30", "5-32", "6-37"],
+			"stats": [{ "type": "WeaponsPurchaseandEnhancementCost", "value": -50 }],
+			"rarity": "common"
+		},
+		{
+			"id": "4-25",
+			"neighborIds": ["3-19", "4-24", "5-31"],
+			"stats": [{ "type": "WeaponsPurchaseandEnhancementCost", "value": -50 }],
+			"rarity": "common"
+		},
+		{
+			"id": "3-19",
+			"neighborIds": ["3-20", "4-25"],
+			"stats": [
+				{ "type": "WeaponsPurchaseandEnhancementCost", "value": -50 },
+				{ "type": "ResearchCost", "value": -50 }
+			],
+			"rarity": "rare"
+		},
+		{
+			"id": "2-13",
+			"neighborIds": ["1-7", "2-12", "2-14"],
+			"stats": [{ "type": "ObtainedGold", "value": 20 }],
+			"rarity": "common"
+		},
+		{
+			"id": "1-7",
+			"neighborIds": ["1-6", "1-8", "2-13", "0"],
+			"stats": [{ "type": "ObtainedGold", "value": 20 }],
+			"rarity": "common"
+		},
+		{ "id": "0", "neighborIds": ["1-1", "1-3", "1-5", "1-7"], "stats": [], "rarity": "unknown" },
+		{
+			"id": "1-3",
+			"neighborIds": ["1-2", "1-4", "2-5", "0"],
+			"stats": [{ "type": "AllWeaponsDamage", "value": 15 }],
+			"rarity": "common"
+		},
+		{
+			"id": "2-5",
+			"neighborIds": ["1-3", "2-4", "2-6"],
+			"stats": [{ "type": "AllWeaponsDamage", "value": 15 }],
+			"rarity": "common"
+		},
+		{
+			"id": "3-7",
+			"neighborIds": ["3-6", "3-8", "4-9"],
+			"stats": [{ "type": "CritDamage", "value": 15 }, { "type": "AllWeaponsDamage", "value": 15 }],
+			"rarity": "rare"
+		},
+		{
+			"id": "4-9",
+			"neighborIds": ["3-7", "5-11"],
+			"stats": [{ "type": "CritDamage", "value": 15 }],
+			"rarity": "common"
+		},
+		{
+			"id": "5-11",
+			"neighborIds": ["4-9", "5-12", "6-13"],
+			"stats": [{ "type": "CritDamage", "value": 15 }],
+			"rarity": "common"
+		},
+		{
+			"id": "6-13",
+			"neighborIds": ["5-11", "6-14"],
+			"stats": [{ "type": "SuperCritDamage", "value": 15 }],
+			"rarity": "common"
+		},
+		{
+			"id": "7-15",
+			"neighborIds": ["7-14", "7-16", "8-17"],
+			"stats": [
+				{ "type": "TempleOfChaosAdditionalItemDrop", "value": 10 },
+				{ "type": "EtherProduction", "value": 25 },
+				{ "type": "AllWeaponsDamage", "value": 100 }
+			],
+			"rarity": "legendary"
+		},
+		{
+			"id": "8-17",
+			"neighborIds": ["7-15", "8-16", "8-18"],
+			"stats": [{ "type": "SciencePointsProduced", "value": 20 }],
+			"rarity": "common"
+		}
+	],
+	[
+		{
+			"id": "8-48",
+			"neighborIds": ["8-47", "8-49"],
+			"stats": [{ "type": "SciencePointsProduced", "value": 20 }],
+			"rarity": "common"
+		},
+		{
+			"id": "7-42",
+			"neighborIds": ["7-41", "7-43"],
+			"stats": [{ "type": "WeaponsPurchaseandEnhancementCost", "value": -50 }],
+			"rarity": "common"
+		},
+		{
+			"id": "6-36",
+			"neighborIds": ["5-30", "6-35"],
+			"stats": [{ "type": "WeaponsPurchaseandEnhancementCost", "value": -50 }],
+			"rarity": "common"
+		},
+		{
+			"id": "5-30",
+			"neighborIds": ["5-29", "5-31", "6-36"],
+			"stats": [{ "type": "WeaponsPurchaseandEnhancementCost", "value": -50 }],
+			"rarity": "common"
+		},
+		{
+			"id": "4-24",
+			"neighborIds": ["3-18", "4-23", "4-25"],
+			"stats": [{ "type": "ObtainedGold", "value": 20 }],
+			"rarity": "common"
+		},
+		{
+			"id": "3-18",
+			"neighborIds": ["2-12", "4-24"],
+			"stats": [{ "type": "ObtainedGold", "value": 20 }],
+			"rarity": "common"
+		},
+		{
+			"id": "2-12",
+			"neighborIds": ["2-11", "2-13", "3-18"],
+			"stats": [{ "type": "ObtainedGold", "value": 20 }],
+			"rarity": "common"
+		},
+		{
+			"id": "1-6",
+			"neighborIds": ["1-5", "1-7"],
+			"stats": [
+				{ "type": "AllBrickDurability", "value": -25 },
+				{ "type": "ObtainedGold", "value": 20 }
+			],
+			"rarity": "rare"
+		},
+		{
+			"id": "1-5",
+			"neighborIds": ["1-4", "1-6", "2-9", "0"],
+			"stats": [{ "type": "AllBrickDurability", "value": -25 }],
+			"rarity": "common"
+		},
+		{
+			"id": "1-4",
+			"neighborIds": ["1-3", "1-5"],
+			"stats": [
+				{ "type": "AllBrickDurability", "value": -25 },
+				{ "type": "AllWeaponsDamage", "value": 15 }
+			],
+			"rarity": "rare"
+		},
+		{
+			"id": "2-6",
+			"neighborIds": ["2-5", "2-7", "3-8"],
+			"stats": [{ "type": "AllWeaponsDamage", "value": 15 }],
+			"rarity": "common"
+		},
+		{
+			"id": "3-8",
+			"neighborIds": ["2-6", "3-7", "4-10"],
+			"stats": [{ "type": "AllWeaponsDamage", "value": 15 }],
+			"rarity": "common"
+		},
+		{
+			"id": "4-10",
+			"neighborIds": ["3-8", "4-11"],
+			"stats": [{ "type": "AllWeaponsMaxEnhancementLevel", "value": 25 }],
+			"rarity": "common"
+		},
+		{
+			"id": "5-12",
+			"neighborIds": ["5-11", "5-13"],
+			"stats": [{ "type": "CritDamage", "value": 15 }],
+			"rarity": "common"
+		},
+		{
+			"id": "6-14",
+			"neighborIds": ["6-13", "6-15"],
+			"stats": [{ "type": "SuperCritDamage", "value": 15 }],
+			"rarity": "common"
+		},
+		{
+			"id": "7-16",
+			"neighborIds": ["7-15", "7-17"],
+			"stats": [{ "type": "SuperCritDamage", "value": 15 }],
+			"rarity": "common"
+		},
+		{
+			"id": "8-18",
+			"neighborIds": ["8-17", "8-19"],
+			"stats": [{ "type": "SciencePointsProduced", "value": 20 }],
+			"rarity": "common"
+		}
+	],
+	[
+		{
+			"id": "8-47",
+			"neighborIds": ["8-46", "8-48"],
+			"stats": [{ "type": "ScienceRank", "value": 5 }],
+			"rarity": "rare"
+		},
+		{
+			"id": "7-41",
+			"neighborIds": ["6-35", "7-40", "7-42"],
+			"stats": [{ "type": "WeaponsPurchaseandEnhancementCost", "value": -50 }],
+			"rarity": "common"
+		},
+		{
+			"id": "6-35",
+			"neighborIds": ["6-36", "7-41"],
+			"stats": [{ "type": "WeaponsPurchaseandEnhancementCost", "value": -50 }],
+			"rarity": "common"
+		},
+		{
+			"id": "5-29",
+			"neighborIds": ["4-23", "5-28", "5-30"],
+			"stats": [
+				{ "type": "WeaponsPurchaseandEnhancementCost", "value": -50 },
+				{ "type": "ObtainedGold", "value": 20 }
+			],
+			"rarity": "rare"
+		},
+		{
+			"id": "4-23",
+			"neighborIds": ["3-17", "4-24", "5-29"],
+			"stats": [{ "type": "ObtainedGold", "value": 20 }],
+			"rarity": "common"
+		},
+		{
+			"id": "3-17",
+			"neighborIds": ["3-16", "4-23"],
+			"stats": [{ "type": "ObtainedGold", "value": 20 }],
+			"rarity": "common"
+		},
+		{
+			"id": "2-11",
+			"neighborIds": ["2-10", "2-12"],
+			"stats": [{ "type": "SciencePointsProduced", "value": 40 }],
+			"rarity": "rare"
+		},
+		{
+			"id": "2-10",
+			"neighborIds": ["2-11", "2-9", "3-14"],
+			"stats": [{ "type": "AllBrickDurability", "value": -25 }],
+			"rarity": "common"
+		},
+		{
+			"id": "2-9",
+			"neighborIds": ["1-5", "2-10", "2-8"],
+			"stats": [{ "type": "AllBrickDurability", "value": -25 }],
+			"rarity": "common"
+		},
+		{
+			"id": "2-8",
+			"neighborIds": ["2-7", "2-9", "3-12"],
+			"stats": [{ "type": "DivineBeastHP", "value": -50 }],
+			"rarity": "common"
+		},
+		{
+			"id": "2-7",
+			"neighborIds": ["2-6", "2-8"],
+			"stats": [{ "type": "SciencePointsProduced", "value": 40 }],
+			"rarity": "rare"
+		},
+		{
+			"id": "3-9",
+			"neighborIds": ["3-10", "4-11"],
+			"stats": [{ "type": "AllWeaponsMaxEnhancementLevel", "value": 25 }],
+			"rarity": "common"
+		},
+		{
+			"id": "4-11",
+			"neighborIds": ["3-9", "4-10", "4-12"],
+			"stats": [{ "type": "AllWeaponsMaxEnhancementLevel", "value": 25 }],
+			"rarity": "common"
+		},
+		{
+			"id": "5-13",
+			"neighborIds": ["5-12", "5-14", "6-15"],
+			"stats": [{ "type": "SuperCritDamage", "value": 15 }, { "type": "CritDamage", "value": 15 }],
+			"rarity": "rare"
+		},
+		{
+			"id": "6-15",
+			"neighborIds": ["5-13", "6-14", "6-16", "7-17"],
+			"stats": [{ "type": "SuperCritDamage", "value": 15 }],
+			"rarity": "common"
+		},
+		{
+			"id": "7-17",
+			"neighborIds": ["6-15", "7-16", "7-18"],
+			"stats": [{ "type": "SuperCritDamage", "value": 15 }],
+			"rarity": "common"
+		},
+		{
+			"id": "8-19",
+			"neighborIds": ["8-18", "8-20"],
+			"stats": [{ "type": "ScienceRank", "value": 5 }],
+			"rarity": "rare"
+		}
+	],
+	[
+		{
+			"id": "8-46",
+			"neighborIds": ["8-45", "8-47"],
+			"stats": [{ "type": "WeaponsPurchaseandEnhancementCost", "value": -50 }],
+			"rarity": "common"
+		},
+		{
+			"id": "7-40",
+			"neighborIds": ["6-34", "7-39", "7-41"],
+			"stats": [{ "type": "ObtainedGold", "value": 20 }],
+			"rarity": "common"
+		},
+		{
+			"id": "6-34",
+			"neighborIds": ["5-28", "7-40"],
+			"stats": [{ "type": "ObtainedGold", "value": 20 }],
+			"rarity": "common"
+		},
+		{
+			"id": "5-28",
+			"neighborIds": ["4-22", "5-27", "5-29", "6-34"],
+			"stats": [{ "type": "ObtainedGold", "value": 20 }],
+			"rarity": "common"
+		},
+		{
+			"id": "4-22",
+			"neighborIds": ["3-16", "5-28"],
+			"stats": [{ "type": "ObtainedGold", "value": 20 }],
+			"rarity": "common"
+		},
+		{
+			"id": "3-16",
+			"neighborIds": ["3-15", "3-17", "4-22"],
+			"stats": [{ "type": "GoldBrickAppearanceRate", "value": 1.1 }],
+			"rarity": "epic"
+		},
+		{
+			"id": "3-15",
+			"neighborIds": ["3-14", "3-16", "4-19"],
+			"stats": [{ "type": "MaxTimeForMiningRewards", "value": 30 }],
+			"rarity": "common"
+		},
+		{
+			"id": "3-14",
+			"neighborIds": ["2-10", "3-13", "3-15"],
+			"stats": [{ "type": "AllBrickDurability", "value": -25 }],
+			"rarity": "common"
+		},
+		{
+			"id": "3-13",
+			"neighborIds": ["3-12", "3-14", "4-17"],
+			"stats": [{ "type": "CritDamage", "value": 15 }],
+			"rarity": "common"
+		},
+		{
+			"id": "3-12",
+			"neighborIds": ["2-8", "3-13", "4-16"],
+			"stats": [{ "type": "DivineBeastHP", "value": -50 }],
+			"rarity": "common"
+		},
+		{
+			"id": "3-11",
+			"neighborIds": ["4-15"],
+			"stats": [{ "type": "CombatATK", "value": 15 }],
+			"rarity": "common"
+		},
+		{
+			"id": "3-10",
+			"neighborIds": ["3-9", "4-14"],
+			"stats": [
+				{ "type": "AllWeaponAttackSpeed", "value": 10 },
+				{ "type": "AllWeaponsMaxEnhancementLevel", "value": 50 }
+			],
+			"rarity": "epic"
+		},
+		{
+			"id": "4-12",
+			"neighborIds": ["4-11", "4-13", "5-14"],
+			"stats": [{ "type": "AllWeaponsMaxEnhancementLevel", "value": 25 }],
+			"rarity": "common"
+		},
+		{
+			"id": "5-14",
+			"neighborIds": ["4-12", "5-13", "5-15"],
+			"stats": [{ "type": "AllWeaponsMaxEnhancementLevel", "value": 25 }],
+			"rarity": "common"
+		},
+		{
+			"id": "6-16",
+			"neighborIds": ["6-15"],
+			"stats": [{ "type": "SuperCritDamage", "value": 15 }],
+			"rarity": "common"
+		},
+		{
+			"id": "7-18",
+			"neighborIds": ["7-17", "7-19"],
+			"stats": [{ "type": "SuperCritDamage", "value": 15 }],
+			"rarity": "common"
+		},
+		{
+			"id": "8-20",
+			"neighborIds": ["8-19", "8-21"],
+			"stats": [{ "type": "SuperCritDamage", "value": 15 }],
+			"rarity": "common"
+		}
+	],
+	[
+		{
+			"id": "8-45",
+			"neighborIds": ["7-39", "8-44", "8-46"],
+			"stats": [{ "type": "WeaponsPurchaseandEnhancementCost", "value": -50 }],
+			"rarity": "common"
+		},
+		{
+			"id": "7-39",
+			"neighborIds": ["6-33", "7-38", "7-40", "8-45"],
+			"stats": [{ "type": "ForgingSpeed", "value": 5 }],
+			"rarity": "rare"
+		},
+		{
+			"id": "6-33",
+			"neighborIds": ["5-27", "7-39"],
+			"stats": [{ "type": "MaxTimeForMiningRewards", "value": 30 }],
+			"rarity": "common"
+		},
+		{
+			"id": "5-27",
+			"neighborIds": ["4-21", "5-28", "6-33"],
+			"stats": [{ "type": "MaxTimeForMiningRewards", "value": 30 }],
+			"rarity": "common"
+		},
+		{
+			"id": "4-21",
+			"neighborIds": ["4-20", "5-25", "5-27"],
+			"stats": [{ "type": "MiningSpeed", "value": 10 }],
+			"rarity": "common"
+		},
+		{
+			"id": "4-20",
+			"neighborIds": ["4-21", "5-24"],
+			"stats": [{ "type": "MiningSpeed", "value": 10 }],
+			"rarity": "common"
+		},
+		{
+			"id": "4-19",
+			"neighborIds": ["3-15", "4-18", "5-23"],
+			"stats": [{ "type": "MaxTimeForMiningRewards", "value": 30 }],
+			"rarity": "common"
+		},
+		{
+			"id": "4-18",
+			"neighborIds": ["4-19", "5-22"],
+			"stats": [{ "type": "MiningSpeed", "value": 10 }],
+			"rarity": "common"
+		},
+		{
+			"id": "4-17",
+			"neighborIds": ["3-13", "5-21"],
+			"stats": [{ "type": "AllBrickDurability", "value": -25 }],
+			"rarity": "common"
+		},
+		{
+			"id": "4-16",
+			"neighborIds": ["3-12", "5-20"],
+			"stats": [{ "type": "DivineBeastHP", "value": -50 }],
+			"rarity": "common"
+		},
+		{
+			"id": "4-15",
+			"neighborIds": ["3-11", "4-14", "5-19"],
+			"stats": [{ "type": "CombatHP", "value": 15 }],
+			"rarity": "common"
+		},
+		{
+			"id": "4-14",
+			"neighborIds": ["3-10", "4-13", "4-15", "5-18"],
+			"stats": [{ "type": "CombatATK", "value": 15 }],
+			"rarity": "common"
+		},
+		{
+			"id": "4-13",
+			"neighborIds": ["4-12", "4-14", "5-17"],
+			"stats": [{ "type": "CombatHP", "value": 15 }],
+			"rarity": "common"
+		},
+		{
+			"id": "5-15",
+			"neighborIds": ["5-14", "6-17"],
+			"stats": [{ "type": "AllWeaponsMaxEnhancementLevel", "value": 25 }],
+			"rarity": "common"
+		},
+		{
+			"id": "6-17",
+			"neighborIds": ["5-15", "7-19"],
+			"stats": [{ "type": "AllWeaponsMaxEnhancementLevel", "value": 25 }],
+			"rarity": "common"
+		},
+		{
+			"id": "7-19",
+			"neighborIds": ["6-17", "7-18", "7-20", "8-21"],
+			"stats": [{ "type": "TempleOfChaosAdditionalItemDrop", "value": 5 }],
+			"rarity": "rare"
+		},
+		{
+			"id": "8-21",
+			"neighborIds": ["7-19", "8-20", "8-22"],
+			"stats": [{ "type": "CombatHP", "value": 15 }],
+			"rarity": "common"
+		}
+	],
+	[
+		{
+			"id": "8-44",
+			"neighborIds": ["8-43", "8-45"],
+			"stats": [{ "type": "ObtainedGold", "value": 20 }],
+			"rarity": "common"
+		},
+		{
+			"id": "7-38",
+			"neighborIds": ["6-32", "7-37", "7-39"],
+			"stats": [{ "type": "SciencePointsProduced", "value": 20 }],
+			"rarity": "common"
+		},
+		{
+			"id": "6-32",
+			"neighborIds": ["5-26", "6-31", "7-38"],
+			"stats": [{ "type": "RuneDiscoveryRate", "value": 1.05 }],
+			"rarity": "common"
+		},
+		{
+			"id": "5-26",
+			"neighborIds": ["6-30", "6-32"],
+			"stats": [{ "type": "ForgingSpeed", "value": 5 }],
+			"rarity": "rare"
+		},
+		{
+			"id": "5-25",
+			"neighborIds": ["4-21", "5-24", "6-29"],
+			"stats": [{ "type": "MaxTimeForMiningRewards", "value": 30 }],
+			"rarity": "common"
+		},
+		{
+			"id": "5-24",
+			"neighborIds": ["4-20", "5-23", "5-25"],
+			"stats": [{ "type": "MaxTimeForMiningRewards", "value": 30 }],
+			"rarity": "common"
+		},
+		{
+			"id": "5-23",
+			"neighborIds": ["4-19", "5-22", "5-24", "6-27"],
+			"stats": [
+				{ "type": "MiningSpeed", "value": 10 },
+				{ "type": "MaxTimeForMiningRewards", "value": 30 }
+			],
+			"rarity": "rare"
+		},
+		{
+			"id": "5-22",
+			"neighborIds": ["4-18", "5-23", "6-26"],
+			"stats": [{ "type": "MiningSpeed", "value": 10 }],
+			"rarity": "common"
+		},
+		{
+			"id": "5-21",
+			"neighborIds": ["4-17", "6-25"],
+			"stats": [{ "type": "AllBrickDurability", "value": -25 }],
+			"rarity": "common"
+		},
+		{
+			"id": "5-20",
+			"neighborIds": ["4-16", "5-19", "6-24"],
+			"stats": [{ "type": "DivineBeastHP", "value": -50 }],
+			"rarity": "common"
+		},
+		{
+			"id": "5-19",
+			"neighborIds": ["4-15", "5-18", "5-20"],
+			"stats": [{ "type": "CombatHP", "value": 15 }, { "type": "CombatATK", "value": 15 }],
+			"rarity": "rare"
+		},
+		{
+			"id": "5-18",
+			"neighborIds": ["4-14", "5-17", "5-19"],
+			"stats": [{ "type": "CombatATK", "value": 15 }],
+			"rarity": "common"
+		},
+		{
+			"id": "5-17",
+			"neighborIds": ["4-13", "5-16", "5-18", "6-21"],
+			"stats": [{ "type": "CombatHP", "value": 15 }],
+			"rarity": "common"
+		},
+		{
+			"id": "5-16",
+			"neighborIds": ["5-17", "6-18", "6-20"],
+			"stats": [{ "type": "CombatHP", "value": 15 }, { "type": "CombatATK", "value": 15 }],
+			"rarity": "rare"
+		},
+		{
+			"id": "6-18",
+			"neighborIds": ["5-16", "7-20"],
+			"stats": [{ "type": "CombatHP", "value": 15 }],
+			"rarity": "common"
+		},
+		{
+			"id": "7-20",
+			"neighborIds": ["6-18", "7-19", "7-21"],
+			"stats": [{ "type": "CombatHP", "value": 15 }],
+			"rarity": "common"
+		},
+		{
+			"id": "8-22",
+			"neighborIds": ["8-21", "8-23"],
+			"stats": [{ "type": "CombatHP", "value": 15 }],
+			"rarity": "common"
+		}
+	],
+	[
+		{
+			"id": "8-43",
+			"neighborIds": ["8-42", "8-44"],
+			"stats": [{ "type": "ObtainedGold", "value": 20 }],
+			"rarity": "common"
+		},
+		{
+			"id": "7-37",
+			"neighborIds": ["7-36", "7-38"],
+			"stats": [{ "type": "SciencePointsProduced", "value": 20 }],
+			"rarity": "common"
+		},
+		{
+			"id": "6-31",
+			"neighborIds": ["6-32"],
+			"stats": [{ "type": "ForgingSpeed", "value": 10 }],
+			"rarity": "epic"
+		},
+		{
+			"id": "6-30",
+			"neighborIds": ["5-26", "6-29"],
+			"stats": [{ "type": "RuneDiscoveryRate", "value": 1.05 }],
+			"rarity": "common"
+		},
+		{
+			"id": "6-29",
+			"neighborIds": ["5-25", "6-30", "7-33"],
+			"stats": [{ "type": "RuneDiscoveryRate", "value": 1.05 }],
+			"rarity": "common"
+		},
+		{
+			"id": "6-28",
+			"neighborIds": ["7-32"],
+			"stats": [{ "type": "SciencePointsProduced", "value": 20 }],
+			"rarity": "common"
+		},
+		{
+			"id": "6-27",
+			"neighborIds": ["5-23", "6-26", "7-31"],
+			"stats": [{ "type": "AllBrickDurability", "value": -25 }],
+			"rarity": "common"
+		},
+		{
+			"id": "6-26",
+			"neighborIds": ["5-22", "6-25", "6-27"],
+			"stats": [{ "type": "AllBrickDurability", "value": -25 }],
+			"rarity": "common"
+		},
+		{
+			"id": "6-25",
+			"neighborIds": ["5-21", "6-26"],
+			"stats": [{ "type": "AllBrickDurability", "value": -25 }],
+			"rarity": "common"
+		},
+		{
+			"id": "6-24",
+			"neighborIds": ["5-20", "6-23"],
+			"stats": [{ "type": "DivineBeastHP", "value": -50 }],
+			"rarity": "common"
+		},
+		{
+			"id": "6-23",
+			"neighborIds": ["6-24", "7-27"],
+			"stats": [{ "type": "DivineBeastHP", "value": -50 }],
+			"rarity": "common"
+		},
+		{
+			"id": "6-22",
+			"neighborIds": ["7-26"],
+			"stats": [{ "type": "SciencePointsProduced", "value": 20 }],
+			"rarity": "common"
+		},
+		{
+			"id": "6-21",
+			"neighborIds": ["5-17", "6-20", "7-25"],
+			"stats": [{ "type": "CombatATK", "value": 15 }],
+			"rarity": "common"
+		},
+		{
+			"id": "6-20",
+			"neighborIds": ["5-16", "6-21"],
+			"stats": [{ "type": "CombatATK", "value": 15 }],
+			"rarity": "common"
+		},
+		{
+			"id": "6-19",
+			"neighborIds": ["7-21"],
+			"stats": [{ "type": "TempleOfChaosAdditionalItemDrop", "value": 10 }],
+			"rarity": "epic"
+		},
+		{
+			"id": "7-21",
+			"neighborIds": ["6-19", "7-20"],
+			"stats": [{ "type": "CombatATK", "value": 15 }],
+			"rarity": "common"
+		},
+		{
+			"id": "8-23",
+			"neighborIds": ["8-22", "8-24"],
+			"stats": [{ "type": "CombatATK", "value": 15 }],
+			"rarity": "common"
+		}
+	],
+	[
+		{
+			"id": "8-42",
+			"neighborIds": ["8-41", "8-43"],
+			"stats": [{ "type": "ObtainedGold", "value": 20 }],
+			"rarity": "common"
+		},
+		{
+			"id": "7-36",
+			"neighborIds": ["7-35", "7-37"],
+			"stats": [{ "type": "SciencePointsProduced", "value": 20 }],
+			"rarity": "common"
+		},
+		{
+			"id": "7-35",
+			"neighborIds": ["7-34", "7-36"],
+			"stats": [{ "type": "SciencePointsProduced", "value": 20 }],
+			"rarity": "common"
+		},
+		{
+			"id": "7-34",
+			"neighborIds": ["7-33", "7-35"],
+			"stats": [{ "type": "SciencePointsProduced", "value": 20 }],
+			"rarity": "common"
+		},
+		{
+			"id": "7-33",
+			"neighborIds": ["6-29", "7-32", "7-34", "8-37"],
+			"stats": [
+				{ "type": "SciencePointsProduced", "value": 20 },
+				{ "type": "RuneDiscoveryRate", "value": 1.05 }
+			],
+			"rarity": "rare"
+		},
+		{
+			"id": "7-32",
+			"neighborIds": ["6-28", "7-31", "7-33"],
+			"stats": [{ "type": "SciencePointsProduced", "value": 20 }],
+			"rarity": "common"
+		},
+		{
+			"id": "7-31",
+			"neighborIds": ["6-27", "7-30", "7-32"],
+			"stats": [{ "type": "AllBrickDurability", "value": -25 }],
+			"rarity": "common"
+		},
+		{
+			"id": "7-30",
+			"neighborIds": ["7-29", "7-31"],
+			"stats": [{ "type": "AllBrickDurability", "value": -25 }],
+			"rarity": "common"
+		},
+		{
+			"id": "7-29",
+			"neighborIds": ["7-28", "7-30", "8-33"],
+			"stats": [
+				{ "type": "ForgingSpeed", "value": 15 },
+				{ "type": "SciencePointsProduced", "value": 50 },
+				{ "type": "AllBrickDurability", "value": -75 }
+			],
+			"rarity": "legendary"
+		},
+		{
+			"id": "7-28",
+			"neighborIds": ["7-27", "7-29"],
+			"stats": [{ "type": "DivineBeastHP", "value": -50 }],
+			"rarity": "common"
+		},
+		{
+			"id": "7-27",
+			"neighborIds": ["6-23", "7-26", "7-28"],
+			"stats": [{ "type": "DivineBeastHP", "value": -50 }],
+			"rarity": "common"
+		},
+		{
+			"id": "7-26",
+			"neighborIds": ["6-22", "7-25", "7-27"],
+			"stats": [{ "type": "SciencePointsProduced", "value": 20 }],
+			"rarity": "common"
+		},
+		{
+			"id": "7-25",
+			"neighborIds": ["6-21", "7-24", "7-26", "8-29"],
+			"stats": [{ "type": "ScienceRank", "value": 5 }],
+			"rarity": "rare"
+		},
+		{
+			"id": "7-24",
+			"neighborIds": ["7-23", "7-25"],
+			"stats": [{ "type": "SciencePointsProduced", "value": 20 }],
+			"rarity": "common"
+		},
+		{
+			"id": "7-23",
+			"neighborIds": ["7-22", "7-24"],
+			"stats": [{ "type": "SciencePointsProduced", "value": 20 }],
+			"rarity": "common"
+		},
+		{
+			"id": "7-22",
+			"neighborIds": ["7-23"],
+			"stats": [{ "type": "SciencePointsProduced", "value": 20 }],
+			"rarity": "common"
+		},
+		{
+			"id": "8-24",
+			"neighborIds": ["8-23", "8-25"],
+			"stats": [{ "type": "CombatATK", "value": 15 }],
+			"rarity": "common"
+		}
+	],
+	[
+		{
+			"id": "8-41",
+			"neighborIds": ["8-40", "8-42"],
+			"stats": [
+				{ "type": "SciencePointsProduced", "value": 50 },
+				{ "type": "WeaponsPurchaseandEnhancementCost", "value": -75 },
+				{ "type": "AllBrickDurability", "value": -75 },
+				{ "type": "MaxTimeForMiningRewards", "value": 60 }
+			],
+			"rarity": "legendary"
+		},
+		{
+			"id": "8-40",
+			"neighborIds": ["8-39", "8-41"],
+			"stats": [{ "type": "ObtainedGold", "value": 20 }],
+			"rarity": "common"
+		},
+		{
+			"id": "8-39",
+			"neighborIds": ["8-38", "8-40"],
+			"stats": [{ "type": "MiningSpeed", "value": 10 }],
+			"rarity": "common"
+		},
+		{
+			"id": "8-38",
+			"neighborIds": ["8-37", "8-39"],
+			"stats": [{ "type": "MaxTimeForMiningRewards", "value": 30 }],
+			"rarity": "common"
+		},
+		{
+			"id": "8-37",
+			"neighborIds": ["7-33", "8-36", "8-38"],
+			"stats": [{ "type": "RuneDiscoveryRate", "value": 1.05 }],
+			"rarity": "common"
+		},
+		{
+			"id": "8-36",
+			"neighborIds": ["8-35", "8-37"],
+			"stats": [{ "type": "AllBrickDurability", "value": -25 }],
+			"rarity": "common"
+		},
+		{
+			"id": "8-35",
+			"neighborIds": ["8-34", "8-36"],
+			"stats": [{ "type": "ScienceRank", "value": 5 }],
+			"rarity": "rare"
+		},
+		{
+			"id": "8-34",
+			"neighborIds": ["8-33", "8-35"],
+			"stats": [{ "type": "SciencePointsProduced", "value": 20 }],
+			"rarity": "common"
+		},
+		{
+			"id": "8-33",
+			"neighborIds": ["7-29", "8-32", "8-34"],
+			"stats": [{ "type": "SciencePointsProduced", "value": 20 }],
+			"rarity": "common"
+		},
+		{
+			"id": "8-32",
+			"neighborIds": ["8-31", "8-33"],
+			"stats": [{ "type": "SciencePointsProduced", "value": 20 }],
+			"rarity": "common"
+		},
+		{
+			"id": "8-31",
+			"neighborIds": ["8-30", "8-32"],
+			"stats": [{ "type": "ScienceRank", "value": 5 }],
+			"rarity": "rare"
+		},
+		{
+			"id": "8-30",
+			"neighborIds": ["8-29", "8-31"],
+			"stats": [{ "type": "DivineBeastHP", "value": -50 }],
+			"rarity": "common"
+		},
+		{
+			"id": "8-29",
+			"neighborIds": ["7-25", "8-28", "8-30"],
+			"stats": [{ "type": "DivineBeastHP", "value": -50 }],
+			"rarity": "common"
+		},
+		{
+			"id": "8-28",
+			"neighborIds": ["8-27", "8-29"],
+			"stats": [{ "type": "AllWeaponsMaxEnhancementLevel", "value": 25 }],
+			"rarity": "common"
+		},
+		{
+			"id": "8-27",
+			"neighborIds": ["8-26", "8-28"],
+			"stats": [{ "type": "AllWeaponsMaxEnhancementLevel", "value": 25 }],
+			"rarity": "common"
+		},
+		{
+			"id": "8-26",
+			"neighborIds": ["8-25", "8-27"],
+			"stats": [{ "type": "CombatHP", "value": 15 }],
+			"rarity": "common"
+		},
+		{
+			"id": "8-25",
+			"neighborIds": ["8-24", "8-26"],
+			"stats": [
+				{ "type": "AllWeaponAttackSpeed", "value": 15 },
+				{ "type": "TempleOfChaosAdditionalItemDrop", "value": 15 },
+				{ "type": "CombatATK", "value": 50 },
+				{ "type": "CombatHP", "value": 50 }
+			],
+			"rarity": "legendary"
+		}
+	]
+]
