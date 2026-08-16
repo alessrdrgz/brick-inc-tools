@@ -7,7 +7,8 @@ import { defineConfig } from "astro/config";
 const root = path.dirname(fileURLToPath(import.meta.url));
 
 export default defineConfig({
-	site: "https://deathfisaro.github.io",
+	site: "https://alessrdrgz.github.io",
+	base: "/brick-inc-tools",
 	integrations: [react()],
 	vite: {
 		plugins: [tailwindcss()],
