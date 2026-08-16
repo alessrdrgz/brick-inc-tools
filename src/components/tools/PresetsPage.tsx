@@ -209,35 +209,29 @@ function PresetsInner() {
 		<div className="panel-snap space-y-6">
 			<header>
 				<h1 className="font-mono text-2xl font-bold tracking-tight">{ui.nav.presets}</h1>
-				<p className="mt-2 max-w-[60ch] text-sm text-muted-foreground">{help}</p>
 			</header>
 
-			<div className="no-scrollbar -mx-1 flex gap-2 overflow-x-auto px-1 pb-1">
-				{PRESET_ORDER.map((name) => (
-					<label
-						key={name}
-						className={`shrink-0 cursor-pointer rounded border px-3 py-2.5 font-mono text-[11px] tracking-wide ${
-							selectedType === name
-								? "border-primary bg-primary/15 text-primary"
-								: "border-border text-muted-foreground hover:border-primary/40"
-						}`}
-					>
-						<input
-							type="radio"
-							className="sr-only"
-							name="preset"
-							checked={selectedType === name}
-							onChange={() => {
-								setSelectedType(name);
-								const preset = presets.find((p) => p.name === name)!;
-								const nextSeeds = Math.min(seedCount, preset.maximumSeeds);
-								setSeedCount(nextSeeds);
-								runBuild(nextSeeds, name);
-							}}
-						/>
-						{name}
-					</label>
-				))}
+			<div className="space-y-2">
+				<select
+					aria-label={ui.nav.presets}
+					value={selectedType}
+					onChange={(e) => {
+						const name = e.target.value;
+						setSelectedType(name);
+						const preset = presets.find((p) => p.name === name)!;
+						const nextSeeds = Math.min(seedCount, preset.maximumSeeds);
+						setSeedCount(nextSeeds);
+						runBuild(nextSeeds, name);
+					}}
+					className="block min-h-11 w-full rounded border border-border bg-background px-3 py-2.5 font-mono text-sm outline-none focus:border-primary sm:w-64"
+				>
+					{PRESET_ORDER.map((name) => (
+						<option key={name} value={name}>
+							{name}
+						</option>
+					))}
+				</select>
+				<p className="max-w-[60ch] text-sm text-muted-foreground">{help}</p>
 			</div>
 
 			<div className="flex flex-col gap-3 sm:flex-row sm:flex-wrap sm:items-end">
